@@ -1,0 +1,1098 @@
+﻿Verificacion de herramientas del USB - 2026-10-30 13:39:12
+Fichero de referencia: D:\hashes-windows.txt
+Coinciden: 1417
+NO coinciden: 0
+En la lista pero no encontrados: 0
+En el USB pero no en la lista: 1092
+D:\LEEME.txt
+D:\hashes-herramientas.txt
+D:\hashes-windows.txt
+D:\hashes-linux.txt
+D:\WINDOWS\bloqueo-usb.ps1
+D:\WINDOWS\triaje\KAPE\gkape.settings
+D:\WINDOWS\triaje\KAPE\2026-10-27T07_42_32_2379102_ConsoleLog.txt
+D:\WINDOWS\triaje\KAPE\2026-10-27T07_49_29_0631358_ConsoleLog.txt
+D:\LINUX\respuesta-en-vivo.sh
+D:\LINUX\avml\avml
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\2026-10-27T07_49_29_0631358_CopyLog.csv
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\2026-10-27T07_49_29_0631358_SkipLog.csv.csv
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\2026-10-27T07_49_29_0631358_ConsoleLog.txt
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\$MFT
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\$LogFile
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\$Secure_$SDS
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\$Boot
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\ProgramData\Microsoft\Windows Defender\Support\MpWppCoreTracing-20261013-094016-00000003-100000000.bin
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\ProgramData\Microsoft\Windows Defender\Support\MpWppCoreTracing-20261027-081052-00000003-100000000.bin
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\ProgramData\Microsoft\Windows Defender\Support\MpWppTracing-20261013-074017-00000003-fffffffeffffffff.bin
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\ProgramData\Microsoft\Windows Defender\Support\MpWppTracing-20261027-071052-00000003-fffffffeffffffff.bin
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\ProgramData\Microsoft\Windows Defender\Support\MpWppTracing-20261027-072338-00000003-fffffffeffffffff.bin
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\ProgramData\Microsoft\Windows Defender\Support\MpWppUpdateLogging-20261013-094017.bin
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\ProgramData\Microsoft\Windows Defender\Support\MpWppUpdateLogging-20261027-081052.bin
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\ProgramData\Microsoft\Windows Defender\Support\MPDetection-20261011-095253.log
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\ProgramData\Microsoft\Windows Defender\Support\MPDeviceControl-20261011-095253.log
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\ProgramData\Microsoft\Windows Defender\Support\MPLog-20261011-095253.log
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\ProgramData\Microsoft\Windows Defender\Support\MPScanSkip-20261011-095253.log
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\ProgramData\Microsoft\Windows Defender\Support\MpWppCoreTracing-20261027-082343-00000003-100000000.bin
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\ProgramData\Microsoft\Windows Defender\Support\MpWppTracing-20261027-072342-00000003-fffffffeffffffff.bin
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\ProgramData\Microsoft\Windows Defender\Support\MpWppUpdateLogging-20261027-082343.bin
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Edge.lnk
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\ProgramData\Microsoft\search\data\applications\windows\Windows-usn.db
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\ProgramData\Microsoft\search\data\applications\windows\Windows-gather.db
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\ProgramData\Microsoft\search\data\applications\windows\Windows-gather.db-shm
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\ProgramData\Microsoft\search\data\applications\windows\Windows-gather.db-wal
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\ProgramData\Microsoft\search\data\applications\windows\Windows.db
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\ProgramData\Microsoft\search\data\applications\windows\Windows.db-shm
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\ProgramData\Microsoft\search\data\applications\windows\Windows.db-wal
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\ProgramData\Microsoft\search\data\applications\windows\GatherLogs\SystemIndex\SystemIndex.1.Crwl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\ProgramData\Microsoft\search\data\applications\windows\GatherLogs\SystemIndex\SystemIndex.1.gthr
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\ProgramData\Microsoft\search\data\applications\windows\GatherLogs\SystemIndex\SystemIndex.2.Crwl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\ProgramData\Microsoft\search\data\applications\windows\GatherLogs\SystemIndex\SystemIndex.2.gthr
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\ProgramData\Microsoft\search\data\applications\windows\GatherLogs\SystemIndex\SystemIndex.3.gthr
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\ProgramData\Microsoft\search\data\applications\windows\GatherLogs\SystemIndex\SystemIndex.4.gthr
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\NTUSER.DAT
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\ntuser.dat.LOG1
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\ntuser.dat.LOG2
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\2026-10-27T07_35_12_2945116_ConsoleLog.lnk
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\2026-10-27T07_39_49_0557491_ConsoleLog.lnk
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\2026-10-27T07_42_32_2379102_ConsoleLog.lnk
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\LB.lnk
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\LB16 (E).lnk
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\ms-gamingoverlay---.lnk
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\ms-gamingoverlay--kglcheck-.lnk
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\ms-settingsbatterysaver.lnk
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\ms-settingswindowsupdatewinsettingshome.lnk
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\PenRespuesta.lnk
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\Triaje20261027T073512DESKTOP-MM8H7M1.lnk
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\Triaje20261027T073949DESKTOP-MM8H7M1.lnk
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\Triaje20261027T074232DESKTOP-MM8H7M1.lnk
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations\1b4dd67f29cb1962.automaticDestinations-ms
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations\5a2098e080cf7ac4.automaticDestinations-ms
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations\5b60ff9d777810f7.automaticDestinations-ms
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations\5f7b5f1e01b83767.automaticDestinations-ms
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations\a61657a5e5dfbdc.automaticDestinations-ms
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations\dd7c3b1adb1c168b.automaticDestinations-ms
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations\f01b4d95cf55d32a.automaticDestinations-ms
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations\f18460fded109990.automaticDestinations-ms
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\16f2f0042ddbe0e8.customDestinations-ms
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\2a2e0412b8ad04a2.customDestinations-ms
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\590aee7bdd69b59b.customDestinations-ms
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\7e4dca80246863e3.customDestinations-ms
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\a7ba40025dac9a67.customDestinations-ms
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\ccba5a5986c77e43.customDestinations-ms
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\f01b4d95cf55d32a.customDestinations-ms
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\f18460fded109990.customDestinations-ms
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\OneDrive.lnk
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\Microsoft Edge.lnk
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Microsoft Edge.lnk
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-11.0842.4160.1.aodl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-11.0842.4160.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-11.0842.4160.2.aodl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-11.0842.4160.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-11.0842.9272.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-11.0842.9272.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-11.0908.7860.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-11.0908.7860.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-11.0950.8396.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-11.0950.8396.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-11.1026.7964.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-11.1026.7964.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-11.1031.7760.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-11.1031.7760.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-11.1054.8076.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-11.1054.8076.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-11.1116.7848.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-11.1116.7848.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-12.1726.7760.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-12.1726.7760.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-12.1731.2988.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-12.1731.2988.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-12.2036.9336.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-12.2036.9336.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-13.0606.8044.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-13.0606.8044.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-13.0739.10236.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-13.0739.10236.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-13.0740.7556.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-13.0740.7556.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-27.0711.8728.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-27.0711.8728.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-27.0714.3996.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-27.0714.3996.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-27.0727.2668.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileSyncConfig-2026-10-11.0842.10384.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileSyncConfig-2026-10-11.0842.3420.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileSyncConfig-2026-10-11.0842.3420.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileSyncConfig-2026-10-27.0714.6652.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileSyncConfig-2026-10-27.0714.6652.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\general.keystore
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\OneDriveLauncher-2026-10-11.0918.8864.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\OneDriveLauncher-2026-10-11.0918.8864.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\OneDriveLauncher-2026-10-11.1000.3624.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\OneDriveLauncher-2026-10-11.1000.3624.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\OneDriveLauncher-2026-10-11.1103.1076.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\OneDriveLauncher-2026-10-11.1103.1076.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\OneDriveLauncher-2026-10-13.0616.5032.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\OneDriveLauncher-2026-10-13.0616.5032.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\OneDriveLauncher-2026-10-13.0750.7484.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\OneDriveLauncher-2026-10-13.0750.7484.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\StandaloneUpdater-2026-10-11.0955.5580.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\StandaloneUpdater-2026-10-13.0610.1016.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\StandaloneUpdater-2026-10-13.0610.9028.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\StandaloneUpdater-2026-10-27.0719.3384.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\telemetry-dll-ramp-value.txt
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Common\FileCoAuth-2026-10-27.0727.2668.2.aodl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\CldFlt0-2026-10-11-084223.etlgz
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\CldFlt1-2026-10-11-084223.etlgz
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\CldFlt2-2026-10-11-084223.etlgz
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\CldFlt3-2026-10-11-084223.etlgz
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\FileCoAuth-2026-10-11.0842.4160.1.odlgz
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\FileCoAuth-2026-10-11.0842.4160.2.odlgz
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\FileSyncConfig-2026-10-11.0842.10384.1.odlgz
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\general.keystore
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\Install-2026-10-11.0841.7000.1.odlgz
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\Install-PerUser-2026-10-11.0841.10832.1.odlgz
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\Install-PerUser_2026-10-11_084145_10832-10828.loggz
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\Install_2026-10-11_084143_7000-5820.loggz
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-11.0842.5824.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-11.0842.5824.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-11.0842.596.1.odlgz
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-11.0842.596.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-11.0908.6868.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-11.0908.6868.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-11.0950.920.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-11.0950.920.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-11.1026.7840.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-11.1026.7840.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-11.1031.7520.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-11.1031.7520.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-11.1054.3844.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-11.1054.3844.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-11.1116.7656.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-11.1116.7656.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-12.1726.7424.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-12.1726.7424.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-12.1731.6868.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-12.1731.6868.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-12.2036.9008.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-12.2036.9008.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-13.0606.968.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-13.0606.968.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-13.0740.8060.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-13.0740.8060.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-27.0711.9092.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-27.0711.9092.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-27.0714.1112.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\telemetry-dll-ramp-value.txt
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncEngine-2026-10-27.0714.1112.2.aodl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\Personal\FeedbackHub\SubmissionPayload.json
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\Business1\general.keystore
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\Business1\microsoftNucleusTelemetryCache.otc
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\Business1\microsoftNucleusTelemetryCache.otc-shm
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\Business1\microsoftNucleusTelemetryCache.otc-wal
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\Business1\Nucleus-2026-10-11.0842.9520.1.odlgz
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\Business1\Nucleus-2026-10-11.0842.9520.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\Business1\NucleusBusiness-2026-10-11.0842.10780.1.aodl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\Business1\FeedbackHub\SubmissionPayload.json
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\Common\general.keystore
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\Common\Nucleus-2026-10-11.0842.10780.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\Common\Nucleus-2026-10-11.0842.10780.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\Common\Nucleus-2026-10-13.0610.2648.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\Common\Nucleus-2026-10-13.0610.2648.2.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\Common\Nucleus-2026-10-27.0714.9692.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\Common\microsoftNucleusTelemetryCache.otc
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\Common\microsoftNucleusTelemetryCache.otc-shm
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\Common\microsoftNucleusTelemetryCache.otc-wal
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\Common\Nucleus-2026-10-27.0714.9692.2.aodl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\Local\general.keystore
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\Local\NucleusLocal-2026-10-11.0842.10780.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\Local\NucleusLocal-2026-10-13.0610.2648.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\Local\NucleusLocal-2026-10-27.0714.9692.1.aodl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\UnAuthenticated\general.keystore
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\UnAuthenticated\NucleusUnAuthenticated-2026-10-11.0842.10780.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\UnAuthenticated\NucleusUnAuthenticated-2026-10-13.0610.2648.1.odl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\UnAuthenticated\microsoftNucleusTelemetryCache.otc-shm
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\UnAuthenticated\microsoftNucleusTelemetryCache.otc-wal
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\UnAuthenticated\NucleusUnAuthenticated-2026-10-27.0714.9692.1.aodl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\logs\ListSync\UnAuthenticated\FeedbackHub\SubmissionPayload.json
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\settings\CxP.db
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\settings\CxP.db-shm
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\settings\CxP.db-wal
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\settings\ECSConfig.json
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\settings\OD4UpdateRingSettingsCompactCache.txt
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\settings\PreSignInSettingsConfig.json
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\settings\Personal\ECSConfig.json
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\settings\Personal\global.ini
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\settings\Personal\logUploaderSettings.ini
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\settings\Personal\SurveyManagerState.json
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\settings\Personal\CxP.db
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\settings\Personal\CxP.db-shm
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\settings\Personal\CxP.db-wal
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\settings\Personal\OCSI.db
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\settings\Personal\OCSI.db-shm
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\settings\Personal\SafeDelete.db
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\settings\Personal\SettingsDatabase.db-shm
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\settings\Personal\SettingsDatabase.db-wal
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\settings\Personal\SyncEngineDatabase.db
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\settings\Personal\SyncEngineDatabase.db-shm
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\settings\Personal\SyncEngineDatabase.db-wal
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\OneDrive\settings\Personal\UXDatabase.db
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Windows\UsrClass.dat
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG1
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG2
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Windows\Explorer\thumbcache_1280.db
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Windows\Explorer\thumbcache_1920.db
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Windows\Explorer\thumbcache_2560.db
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Windows\Explorer\thumbcache_768.db
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Windows\Explorer\thumbcache_custom_stream.db
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Windows\Explorer\thumbcache_exif.db
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Windows\Explorer\thumbcache_sr.db
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Windows\Explorer\thumbcache_wide.db
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Windows\Explorer\thumbcache_wide_alternate.db
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Windows\Explorer\thumbcache_16.db
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Windows\Explorer\thumbcache_256.db
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Windows\Explorer\thumbcache_32.db
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Windows\Explorer\thumbcache_48.db
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Windows\Explorer\thumbcache_96.db
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Windows\Explorer\thumbcache_idx.db
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Windows\History\desktop.ini
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Windows\WebCache\V01.chk
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Windows\WebCache\V0100006.log
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Windows\WebCache\V01res00001.jrs
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Windows\WebCache\V01.log
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Windows\WebCache\V01tmp.log
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Windows\WebCache\WebCacheV01.dat
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Windows\WebCache\WebCacheV01.jfm
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Windows\INetCookies\deprecated.cookie
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Edge\User Data\Default\Favicons
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Edge\User Data\Default\History
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Edge\User Data\Default\Login Data
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Edge\User Data\Default\Network Action Predictor
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Edge\User Data\Default\Preferences
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Edge\User Data\Default\Shortcuts
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Edge\User Data\Default\Top Sites
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Edge\User Data\Default\Web Data
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Edge\User Data\Default\Collections\collectionsSQLite
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Edge\User Data\Default\Sessions\Session_13436355030696888
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Edge\User Data\Default\Sessions\Session_13437558837782274
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Edge\User Data\Default\Sessions\Tabs_13436355030760169
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Edge\User Data\Default\Sessions\Tabs_13437558838113140
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Internet Explorer\brndlog.bak
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Internet Explorer\brndlog.txt
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Internet Explorer\ie4uinit-ClearIconCache.log
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Internet Explorer\ie4uinit-UserConfig.log
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\Microsoft\Internet Explorer\IECompatData\iecompatdata.xml
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\investigado\AppData\Local\ConnectedDevicesPlatform\L.investigado\ActivitiesCache.db
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\Default\NTUSER.DAT
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\Default\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Administrative Tools.lnk
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\Default\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\File Explorer.lnk
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\Default\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\Shows Desktop.lnk
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\Default\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\Window Switcher.lnk
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Users\Public\Desktop\Microsoft Edge.lnk
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-AAD%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-AgentConnector-FilesAgent%4Admin.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-AppReadiness%4Admin.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-AppReadiness%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-AppXDeployment-Server%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Authentication User Interface%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-BitLocker%4BitLocker Management.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider%4Admin.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-DeviceSetupManager%4Admin.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-DeviceSetupManager%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-LanguagePackSetup%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-ModernDeployment-Diagnostics-Provider%4Autopilot.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-ModernDeployment-Diagnostics-Provider%4ManagementService.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-MUI%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Provisioning-Diagnostics-Provider%4Admin.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Resource-Exhaustion-Resolver%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Security-LessPrivilegedAppContainer%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Security-SPP-UX-Notifications%4ActionCenter.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-StorageManagement%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-TWinUI%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-TZSync%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-UAC%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-UAC-FileVirtualization%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-UserPnp%4DeviceInstall.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-WER-PayloadHealth%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-WFP%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-WindowsSystemAssessmentTool%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Setup.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Application.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Windows Defender%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Client-Licensing-Platform%4Admin.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-AppID%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Application-Experience%4Program-Compatibility-Assistant.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Application-Experience%4Program-Telemetry.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-AppLocker%4EXE and DLL.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-AppModel-Runtime%4Admin.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-AppXDeployment%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-AppXDeploymentServer%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-AppXDeploymentServer%4Restricted.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-AppxPackaging%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Audio%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Audio%4PlaybackManager.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Biometrics%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Bits-Client%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-CloudFiles-Filter%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-CloudRestoreLauncher%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-CloudStore%4Initialization.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-CloudStore%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-CodeIntegrity%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Containers-BindFlt%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Containers-Wcifs%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Crypto-DPAPI%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Crypto-NCrypt%4KeyMgmt.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Crypto-NCrypt%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Dhcp-Client%4Admin.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Diagnosis-DPS%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Diagnosis-PCW%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Diagnostics-Performance%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-GroupPolicy%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-HelloForBusiness%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Kernel-Boot%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Kernel-Cache%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Kernel-Dump%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Kernel-EventTracing%4Admin.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Kernel-PnP%4Configuration.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Kernel-PnP%4Device Management.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Kernel-PnP%4Driver Watchdog.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Kernel-ShimEngine%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Kernel-WHEA%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Known Folders API Service.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-LiveId%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-MF-FrameServer%4Camera_FrameServer.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-NCSI%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-NetworkProfile%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Ntfs%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Ntfs%4WHC.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Partition%4Diagnostic.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-PCI%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-PCRPF%4PCRPF.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Perflib%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-PowerShell%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Privacy-Auditing%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-PushNotification-Platform%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-ReadyBoost%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Resource-Exhaustion-Detector%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Security-Mitigations%4KernelMode.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Shell-Core%4AppDefaults.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Shell-Core%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-ShellCommon-StartLayoutPopulation%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-SmbClient%4Connectivity.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-SMBClient%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-SMBServer%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-StateRepository%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Storage-ClassPnP%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Storage-Storport%4Health.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Storage-Storport%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-StorageSpaces-Driver%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-StorageVolume%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Store%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Storsvc%4Diagnostic.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-TaskScheduler%4Maintenance.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-TerminalServices-LocalSessionManager%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Time-Service%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-UniversalTelemetryClient%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-User Device Registration%4Admin.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-User Profile Service%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-VolumeSnapshot-Driver%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Wcmsvc%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-WebAuthN%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Windows Firewall With Advanced Security%4Firewall.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-WindowsUpdateClient%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-WinINet-Config%4ProxyConfigChanged.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-Winlogon%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-WinRM%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Microsoft-Windows-WMI-Activity%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Plugin-Passkey-Providers%4Operational.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Security.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Synced-Passkey-Provider%4Operatonal.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\System.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\winevt\logs\Windows PowerShell.evtx
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\WDI\LogFiles\BootPerfDiagLogger.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\WDI\LogFiles\ShutdownPerfDiagLogger.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\WDI\LogFiles\WdiContextLog.etl.002
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\WDI\LogFiles\WdiContextLog.etl.003
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\WDI\{86432a0b-3c7d-4ddf-a89c-172faa90485d}\S-1-5-21-2930198111-510352868-1024287753-1000_UserData.bin
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\WDI\{86432a0b-3c7d-4ddf-a89c-172faa90485d}\S-1-5-21-2930198111-510352868-1024287753-1001_UserData.bin
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\WDI\{86432a0b-3c7d-4ddf-a89c-172faa90485d}\{142da88c-34aa-42e2-8a00-1cc540003f7c}\snapshot.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\WDI\{86432a0b-3c7d-4ddf-a89c-172faa90485d}\{3dd63f1f-2c49-47a1-b0d4-e9d9eb4fe254}\snapshot.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\WDI\{86432a0b-3c7d-4ddf-a89c-172faa90485d}\{44fee23c-3d59-402c-b41e-49b83de20f38}\snapshot.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\WDI\{86432a0b-3c7d-4ddf-a89c-172faa90485d}\{516d28ce-1e18-4af0-8cc3-487671a6190e}\snapshot.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\WDI\{86432a0b-3c7d-4ddf-a89c-172faa90485d}\{64eda9ec-71b6-40f9-a3d6-de2709f24606}\snapshot.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\WDI\{86432a0b-3c7d-4ddf-a89c-172faa90485d}\{6e6b936d-df64-4fa3-b584-26273fb590cf}\snapshot.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\WDI\{86432a0b-3c7d-4ddf-a89c-172faa90485d}\{707c4ff9-616c-47a7-9344-065c8a6de4cc}\snapshot.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\WDI\{86432a0b-3c7d-4ddf-a89c-172faa90485d}\{7cdeadaa-54d9-4fd3-b613-bdcc2907ebc1}\snapshot.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\WDI\{86432a0b-3c7d-4ddf-a89c-172faa90485d}\{927bf596-9163-4029-88ba-92636ef7c277}\snapshot.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\WDI\{86432a0b-3c7d-4ddf-a89c-172faa90485d}\{a96542b9-2c5e-42ee-a8b3-9c2971634483}\snapshot.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\WDI\{86432a0b-3c7d-4ddf-a89c-172faa90485d}\{c18007bf-02a4-42fa-be4e-37775b92221d}\snapshot.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\WDI\{86432a0b-3c7d-4ddf-a89c-172faa90485d}\{d828fcc1-979b-4afd-af86-c8c04d8c4591}\snapshot.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\CloudExperienceHostOobe.etl.001
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\CloudExperienceHostOobe.etl.002
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\CloudExperienceHostOobe.etl.003
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\CloudExperienceHostOobe.etl.004
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\CloudExperienceHostOobe.etl.005
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\CloudExperienceHostOobe.etl.006
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\FaceTelManually.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\FaceUnlockManually.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\NtfsLog.etl.001
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\NtfsLog.etl.002
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\NtfsLog.etl.004
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\NtfsLog.etl.005
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\NtfsLog.etl.006
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\NtfsLog.etl.007
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\NtfsLog.etl.008
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\SpoolerLogger.etl.001
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\SpoolerLogger.etl.002
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\SpoolerLogger.etl.003
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\SpoolerLogger.etl.004
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\LwtNetLog.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\NetCore.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\NtfsLog.etl.003
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\RadioMgr.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\ReFSLog.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\Wifi.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\RtBackup\EtwRTDefenderApiLogger.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\RtBackup\EtwRTDefenderAuditLogger.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\RtBackup\EtwRTDiagLog.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\RtBackup\EtwRTDiagtrack-Listener.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\RtBackup\EtwRTEventLog-Application.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\LogFiles\WMI\RtBackup\EtwRTEventLog-System.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SleepStudy\abnormal-shutdown-sleepstudy-trace-2026-10-13-09-40-15.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SleepStudy\SleepStudyControlTraceSession.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SleepStudy\SleepStudyTraceSession.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SleepStudy\ScreenOn\ScreenOnPowerStudyTraceSession-2026-10-11-09-52-54.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SleepStudy\ScreenOn\ScreenOnPowerStudyTraceSession-2026-10-11-09-54-27.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SleepStudy\ScreenOn\ScreenOnPowerStudyTraceSession-2026-10-11-09-57-30.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SleepStudy\ScreenOn\ScreenOnPowerStudyTraceSession-2026-10-11-10-37-51.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SleepStudy\ScreenOn\ScreenOnPowerStudyTraceSession-2026-10-11-10-39-43.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SleepStudy\ScreenOn\ScreenOnPowerStudyTraceSession-2026-10-11-11-07-24.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SleepStudy\ScreenOn\ScreenOnPowerStudyTraceSession-2026-10-11-11-08-04.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SleepStudy\ScreenOn\ScreenOnPowerStudyTraceSession-2026-10-11-11-50-43.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SleepStudy\ScreenOn\ScreenOnPowerStudyTraceSession-2026-10-11-12-26-22.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SleepStudy\ScreenOn\ScreenOnPowerStudyTraceSession-2026-10-11-12-31-30.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SleepStudy\ScreenOn\ScreenOnPowerStudyTraceSession-2026-10-11-12-53-49.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SleepStudy\ScreenOn\ScreenOnPowerStudyTraceSession-2026-10-11-13-16-22.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SleepStudy\ScreenOn\ScreenOnPowerStudyTraceSession-2026-10-12-19-26-26.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SleepStudy\ScreenOn\ScreenOnPowerStudyTraceSession-2026-10-12-19-30-44.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SleepStudy\ScreenOn\ScreenOnPowerStudyTraceSession-2026-10-12-22-35-28.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SleepStudy\ScreenOn\ScreenOnPowerStudyTraceSession-2026-10-13-08-06-07.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SleepStudy\ScreenOn\ScreenOnPowerStudyTraceSession-2026-10-13-09-40-18.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SleepStudy\ScreenOn\ScreenOnPowerStudyTraceSession-2026-10-27-08-10-53.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SleepStudy\ScreenOn\ScreenOnPowerStudyTraceSession-2026-10-27-08-22-05.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\MicrosoftEdgeUpdateTaskMachineCore{4C5E9F08-6F21-4D1B-A788-BA47A7A5FF06}
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\MicrosoftEdgeUpdateTaskMachineUA{35E432BD-E07F-4B8A-8091-FD2071E915E8}
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\OneDrive Reporting Task-S-1-5-21-2930198111-510352868-1024287753-1001
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\OneDrive Standalone Update Task-S-1-5-21-2930198111-510352868-1024287753-1001
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\OneDrive Startup Task-S-1-5-21-2930198111-510352868-1024287753-1001
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\XblGameSave\XblGameSaveTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319 64
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319 64 Critical
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319 Critical
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\AccountHealth\RecoverabilityToastTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Active Directory Rights Management Services Client\AD RMS Rights Policy Template Management (Automated)
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Active Directory Rights Management Services Client\AD RMS Rights Policy Template Management (Manual)
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\AppID\EDP Policy Manager
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\AppID\PolicyConverter
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\AppID\VerifiedPublisherCertStoreCheck
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Application Experience\MareBackup
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser Exp
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Application Experience\PcaPatchDbTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Application Experience\SdbinstMergeDbTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Application Experience\StartupAppTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\ApplicationData\appuriverifierdaily
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\ApplicationData\appuriverifierinstall
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\ApplicationData\CleanupTemporaryState
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\ApplicationData\DsSvcCleanup
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\AppListBackup\Backup
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\AppListBackup\BackupNonMaintenance
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\AppxDeploymentClient\Pre-staged app cleanup
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\AppxDeploymentClient\UCPD velocity
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Autochk\Proxy
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\BitLocker\BitLocker Encrypt All Drives
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\BitLocker\BitLocker MDM policy Refresh
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Bluetooth\UninstallDeviceTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\BrokerInfrastructure\BgTaskRegistrationMaintenanceTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\capabilityaccessmanager\maintenancetasks
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\CertificateServicesClient\AikCertEnrollTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\CertificateServicesClient\CryptoPolicyTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\CertificateServicesClient\KeyPreGenTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\CertificateServicesClient\SystemTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\CertificateServicesClient\UserTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\CertificateServicesClient\UserTask-Roam
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Chkdsk\ProactiveScan
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Chkdsk\SyspartRepair
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Clip\License Validation
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Clip\LicenseImdsIntegration
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\CloudExperienceHost\CreateObjectTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\CloudRestore\Backup
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\CloudRestore\Restore
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Containers\CmCleanup
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Customer Experience Improvement Program\Consolidator
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Customer Experience Improvement Program\UsbCeip
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Data Integrity Scan\Data Integrity Check And Scan
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Data Integrity Scan\Data Integrity Scan
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Data Integrity Scan\Data Integrity Scan for Crash Recovery
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Defrag\ScheduledDefrag
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Device Information\Device
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Device Information\Device User
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Device Setup\Driver Recovery on Reboot
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Device Setup\Metadata Refresh
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\DeviceDirectoryClient\HandleCommand
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\DeviceDirectoryClient\HandleWnsCommand
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\DeviceDirectoryClient\IntegrityCheck
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\DeviceDirectoryClient\LocateCommandUserSession
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\DeviceDirectoryClient\RegisterDeviceAccountChange
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\DeviceDirectoryClient\RegisterDeviceLocationRightsChange
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\DeviceDirectoryClient\RegisterDevicePeriodic24
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\DeviceDirectoryClient\RegisterDevicePolicyChange
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\DeviceDirectoryClient\RegisterDeviceProtectionStateChanged
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\DeviceDirectoryClient\RegisterDeviceSettingChange
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\DeviceDirectoryClient\RegisterUserDevice
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Diagnosis\RecommendedTroubleshootingScanner
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Diagnosis\Scheduled
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Diagnosis\UnexpectedCodepath
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\DirectX\DirectXDatabaseUpdater
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\DirectX\DXGIAdapterCache
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\DiskCleanup\SilentCleanup
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticResolver
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\DiskFootprint\Diagnostics
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\DiskFootprint\StorageSense
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\DUSM\dusmtask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\EDP\EDP App Launch Task
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\EDP\EDP Auth Task
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\EDP\EDP Inaccessible Credentials Task
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\EDP\StorageCardEncryption Task
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\ExploitGuard\ExploitGuard MDM policy Refresh
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\File Classification Infrastructure\Property Definition Sync
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\FileHistory\File History (maintenance mode)
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Hotpatch\Monitoring
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Input\InputSettingsRestoreDataAvailable
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Input\LocalUserSyncDataAvailable
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Input\MouseSyncDataAvailable
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Input\PenSyncDataAvailable
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Input\RemoteMouseSyncDataAvailable
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Input\RemotePenSyncDataAvailable
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Input\RemoteTouchpadSyncDataAvailable
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Input\syncpensettings
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Input\TouchpadSyncDataAvailable
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\InstallService\RestoreDevice
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\InstallService\ScanForUpdates
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\InstallService\ScanForUpdatesAsUser
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\InstallService\SmartRetry
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\InstallService\WakeUpAndContinueUpdates
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\InstallService\WakeUpAndScanForUpdates
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\International\Synchronize Language Settings
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Kernel\La57Cleanup
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\LanguageComponentsInstaller\Installation
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\LanguageComponentsInstaller\ReconcileLanguageResources
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\LanguageComponentsInstaller\Uninstallation
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\License Manager\TempSignedLicenseExchange
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Location\WindowsActionDialog
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Maintenance\WinSAT
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Maps\MapsToastTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Maps\MapsUpdateTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\MemoryDiagnostic\AutomaticOfflineMemoryDiagnostic
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\MemoryDiagnostic\ProcessMemoryDiagnosticEvents
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\MemoryDiagnostic\RunFullMemoryDiagnostic
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\MUI\LPRemove
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Multimedia\SystemSoundsService
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Network Connectivity Status Indicator\NcsiIdentifyUserProxies
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\NlaSvc\WiFiTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Offline Files\Background Synchronization
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Offline Files\Logon Synchronization
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\PCRPF\PCR Prediction Framework Firmware Update Task
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\PerformanceTrace\ShowFeedbackToast
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\PerformanceTrace\WhesvcToast
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\PI\Secure-Boot-Update
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\PI\Sqm-Tasks
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Plug and Play\Device Install Group Policy
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Plug and Play\Device Install Reboot Required
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Plug and Play\Sysprep Generalize Drivers
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Pluton\Pluton-Ksp-Provisioning
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Power Efficiency Diagnostics\AnalyzeSystem
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Printing\EduPrintProv
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Printing\PrinterCleanupTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Printing\PrintJobCleanupTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\PushToInstall\LoginCheck
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\PushToInstall\Registration
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Ras\MobilityManager
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\RecoveryEnvironment\VerifyWinRE
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\ReFsDedupSvc\Initialization
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Registry\RegIdleBackup
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\RemoteAssistance\RemoteAssistanceTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Servicing\OOBEFodSetup
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Servicing\StartComponentCleanup
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Setup\PITRTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Setup\SetupRecoveryDataTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\SharedPC\Account Cleanup
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Shell\CreateObjectTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Shell\FamilySafetyMonitor
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Shell\FamilySafetyRefreshTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Shell\IndexerAutomaticMaintenance
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Shell\ThemeAssetTask_SyncFODState
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Shell\ThemesSyncedImageDownload
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Shell\UpdateUserPictureTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Shell\UpdateUserPictureTaskContained
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\SoftwareProtectionPlatform\SvcRestartTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\SoftwareProtectionPlatform\SvcRestartTaskLogon
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\SoftwareProtectionPlatform\SvcRestartTaskNetwork
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\SpacePort\SpaceAgentTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\SpacePort\SpaceManagerTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Speech\SpeechModelDownloadTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\StateRepository\MaintenanceTasks
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Storage Tiers Management\Storage Tiers Management Initialization
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Storage Tiers Management\Storage Tiers Optimization
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Sustainability\PowerGridForecastTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Sustainability\SustainabilityTelemetry
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Sysmain\HybridDriveCachePrepopulate
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Sysmain\HybridDriveCacheRebalance
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Sysmain\ResPriStaticDbSync
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Sysmain\WsSwapAssessmentTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\SystemRestore\SR
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Task Manager\Interactive
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\TextServicesFramework\MsCtfMonitor
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Time Synchronization\ForceSynchronizeTime
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Time Synchronization\SynchronizeTime
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Time Zone\SynchronizeTimeZone
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\TPM\Tpm-HASCertRetr
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\TPM\Tpm-Maintenance
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\TPM\Tpm-PreAttestationHealthCheck
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\UpdateOrchestrator\Report policies
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\UpdateOrchestrator\Schedule Maintenance Work
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\UpdateOrchestrator\Schedule Scan
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\UpdateOrchestrator\Schedule Scan Static Task
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\UpdateOrchestrator\Schedule Wake To Work
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\UpdateOrchestrator\Schedule Work
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\UpdateOrchestrator\Start Oobe Expedite Work
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\UpdateOrchestrator\StartOobeAppsScanAfterUpdate
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\UpdateOrchestrator\StartOobeAppsScan_LicenseAccepted
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\UpdateOrchestrator\UIEOrchestrator
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\UpdateOrchestrator\USO_UxBroker
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\UpdateOrchestrator\UUS Failover Task
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\UPnP\UPnPHostConfig
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\UsageAndQualityInsights\UsageAndQualityInsights-MaintenanceTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\USB\Usb-Notifications
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\User Profile Service\HiveUploadTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\WaaSMedic\PerformRemediation
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\WCM\WiFiTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\WDI\ResolutionHost
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Windows Defender\Windows Defender Cache Maintenance
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Windows Defender\Windows Defender Cleanup
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Windows Defender\Windows Defender Scheduled Scan
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Windows Defender\Windows Defender Verification
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Windows Error Reporting\QueueReporting
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Windows Filtering Platform\BfeOnServiceStartTypeChange
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Windows Media Sharing\UpdateLibrary
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\WindowsColorSystem\Calibration Loader
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\WindowsUpdate\Refresh Group Policy Cache
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\WindowsUpdate\Scheduled Start
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Wininet\CacheTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\WlanSvc\CDSSync
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\WlanSvc\MoProfileManagement
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\WOF\WIM-Hash-Management
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\WOF\WIM-Hash-Validation
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Work Folders\Work Folders Logon Synchronization
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Work Folders\Work Folders Maintenance Work
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Workplace Join\Automatic-Device-Join
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Workplace Join\Device-Sync
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Workplace Join\Recovery-Check
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\WwanSvc\NotificationTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\WwanSvc\OobeDiscovery
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\ConsentUX\UnifiedConsent\UnifiedConsentSyncTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Feedback\Siuf\DmClient
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Feedback\Siuf\DmClientOnScenarioDownload
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Flighting\FeatureConfig\BootstrapUsageDataReporting
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Flighting\FeatureConfig\GovernedFeatureUsageProcessing
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Flighting\FeatureConfig\ReconcileConfigs
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Flighting\FeatureConfig\ReconcileFeatures
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Flighting\FeatureConfig\SafeguardsReconciliation
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Flighting\FeatureConfig\UsageDataFlushing
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Flighting\FeatureConfig\UsageDataReceiver
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Flighting\FeatureConfig\UsageDataReporting
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Flighting\OneSettings\RefreshCache
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Management\Autopilot\DetectHardwareChange
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Management\Autopilot\RemediateHardwareChange
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Management\Provisioning\Cellular
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Management\Provisioning\Logon
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Management\Provisioning\MdmDiagnosticsCleanup
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Management\Provisioning\Retry
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\Management\Provisioning\RunOnReboot
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\WindowsAI\ClickToDo\ModelCachingIdle
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\WindowsAI\ClickToDo\ModelCachingLimit
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\WindowsAI\ClickToDo\ModelCachingUpdate
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\WindowsAI\Recall\InitialConfiguration
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\WindowsAI\Recall\PolicyConfiguration
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\Microsoft\Windows\WindowsAI\Settings\InitialConfiguration
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\SoftLanding\S-1-5-21-2930198111-510352868-1024287753-1001\SoftLandingCreativeManagementTask
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\SoftLanding\S-1-5-21-2930198111-510352868-1024287753-1001\SoftLandingDeferralTask-{7df36b85-fa5a-4500-a1fc-747399eda4a1}
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\Tasks\SoftLanding\S-1-5-21-2930198111-510352868-1024287753-1001\SoftLandingTriggerTask-128000000001615609-render-{0e89d423-8ad9-4577-a646-08a1eee8edd0}
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SRU\SRU.chk
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SRU\SRU.log
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SRU\SRU0004F.log
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SRU\SRU00050.log
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SRU\SRU00051.log
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SRU\SRUDB.dat
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SRU\SRUDB.jfm
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SRU\SRUres00001.jrs
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\SRU\SRUtmp.log
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\config\SAM.LOG1
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\config\SAM.LOG2
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\config\SECURITY.LOG1
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\config\SECURITY.LOG2
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\config\SOFTWARE.LOG1
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\config\SOFTWARE.LOG2
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\config\SYSTEM.LOG1
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\config\SYSTEM.LOG2
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\config\SAM
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\config\SECURITY
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\config\SOFTWARE
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\config\SYSTEM
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\config\DEFAULT
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\config\DEFAULT.LOG1
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\config\DEFAULT.LOG2
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\wbem\Repository\INDEX.BTR
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\wbem\Repository\MAPPING1.MAP
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\wbem\Repository\MAPPING2.MAP
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\wbem\Repository\MAPPING3.MAP
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\System32\wbem\Repository\OBJECTS.DATA
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\ServiceProfiles\NetworkService\NTUSER.DAT
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\ServiceProfiles\NetworkService\NTUSER.DAT.LOG1
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\ServiceProfiles\NetworkService\NTUSER.DAT.LOG2
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Logs\domgmt.20261011_075442_222.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Logs\domgmt.20261011_090505_868.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Logs\domgmt.20261013_061011_714.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Logs\domgmt.20261013_061713_252.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Logs\domgmt.20261027_071950_839.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Logs\dosvc.20261011_075437_045.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Logs\dosvc.20261011_075853_065.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Logs\dosvc.20261011_084048_587.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Logs\dosvc.20261011_091003_617.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Logs\dosvc.20261011_095243_331.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Logs\dosvc.20261011_102821_203.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Logs\dosvc.20261011_105549_175.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Logs\dosvc.20261011_111822_790.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Logs\dosvc.20261012_172805_282.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Logs\dosvc.20261012_203733_330.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Logs\dosvc.20261013_060811_612.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Logs\dosvc.20261013_074223_183.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Logs\dosvc.20261027_071238_348.etl
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\ServiceProfiles\LocalService\NTUSER.DAT
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\ServiceProfiles\LocalService\NTUSER.DAT.LOG1
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\ServiceProfiles\LocalService\NTUSER.DAT.LOG2
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\inf\setupapi.dev.log
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\AM_BASE_PATCH1.EXE-B2ACC39D.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\AM_DELTA.EXE-78CA83B0.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\AM_DELTA_PATCH_1.459.666.0.EX-C8280219.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\AM_DELTA_PATCH_1.459.669.0.EX-4B26AFB8.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\AM_ENGINE_PATCH_1.1.26080.3.E-11BE6B45.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\APPACTIONS.EXE-51E30E64.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\APPLICATIONFRAMEHOST.EXE-8CE9A1EE.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\AUDIODG.EXE-AB22E9A6.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\BACKGROUNDTASKHOST.EXE-51333CCD.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\BACKGROUNDTASKHOST.EXE-B0FA04B2.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\BACKGROUNDTASKHOST.EXE-C083982A.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\BACKGROUNDTASKHOST.EXE-CAD1DF16.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\BACKGROUNDTRANSFERHOST.EXE-E7B7D877.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\BDEUISRV.EXE-7BC33651.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\CHOICE.EXE-78DC61EC.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\CLOUDEXPERIENCEHOSTBROKER.EXE-AB26EBC7.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\CMD.EXE-0BD30981.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\COMPATTELRUNNER.EXE-B7A68ECC.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\COMPPKGSRV.EXE-4780F0C1.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\CONHOST.EXE-0C6456FB.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\CONSENT.EXE-40419367.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\COOKIE_EXPORTER.EXE-68A2E94A.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\CREDENTIALUIBROKER.EXE-8CEDA3EB.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\CSC.EXE-B6D5E435.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\CTFMON.EXE-795F8130.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\CVTRES.EXE-BBD3ED93.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\DATAEXCHANGEHOST.EXE-8B66795C.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\DEFENDERAIPLATFORMHOST.EXE-7851CEF9.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\DEFENDERSESSIONHELPER.EXE-75C747C4.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\DEFRAG.EXE-3D9E8D72.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\DIRECTXDATABASEUPDATER.EXE-7B8AED66.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\DISMHOST.EXE-80060F95.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\DISMHOST.EXE-9ED88D89.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\DISMHOST.EXE-BB8D90C2.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\DLLHOST.EXE-1BAE06BB.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\DLLHOST.EXE-236AEA34.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\DLLHOST.EXE-6F625E57.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\DLLHOST.EXE-742E0212.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\DLLHOST.EXE-7C165764.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\DLLHOST.EXE-7D5CE0CA.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\DLLHOST.EXE-810B6BBE.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\DLLHOST.EXE-85C63421.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\DLLHOST.EXE-95797F8F.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\DLLHOST.EXE-A6DA1980.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\DLLHOST.EXE-B6ED8881.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\DLLHOST.EXE-C7F45418.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\DLLHOST.EXE-DEEF2761.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\DLLHOST.EXE-ECDCED3C.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\DLLHOST.EXE-F59169FD.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\DLLHOST.EXE-F6E270D2.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\DLLHOST.EXE-F7FC6593.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\DRVINST.EXE-39D9EAC7.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\DSMUSERTASK.EXE-853A6893.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\ELEVATE-SHIM.EXE-3897E1C5.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\ELEVATION_SERVICE.EXE-BA5F3F1B.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\FILECOAUTH.EXE-2CAED4CD.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\FILECOAUTH.EXE-5FE7E06B.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\FILECOAUTH.EXE-AE55212F.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\FILESYNCCONFIG.EXE-2D743870.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\FILESYNCCONFIG.EXE-4ECA3E92.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\FILESYNCCONFIG.EXE-A09A8A4E.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\FIND.EXE-AE190082.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\FINDSTR.EXE-1BC2295F.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\FLTMC.EXE-0772512B.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\GKAPE.EXE-9DAF60D9.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\GKAPE.EXE-CC6C4E4E.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\GRPCONV.EXE-A548DBA8.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\IDENTITY_HELPER.EXE-371FACE9.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\KAPE.EXE-AC35B57B.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\KAPE.EXE-BF0FFBFE.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\LOGONUI.EXE-F639BD7E.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\LPREMOVE.EXE-570BDFF7.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\M365COPILOT.EXE-C1ED2440.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\M365COPILOT_AUTOSTARTER.EXE-CD016FA1.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MICROSOFT.SHAREPOINT.EXE-1E14509C.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MICROSOFTEDGEUPDATE.EXE-7A595326.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MICROSOFTEDGEUPDATE.EXE-CC34B95A.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MICROSOFTEDGEUPDATESETUP_X86_-D3D67AE7.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MICROSOFTEDGE_X64_155.0.4283.-582424DE.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MICROSOFTEDGE_X64_155.0.4283.-B884CDA5.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MICROSOFTEDGE_X64_156.0.4314.-C31CECA4.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MICROSOFTSTARTFEEDPROVIDER.EX-A0DD3EEC.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MOBSYNC.EXE-B307E1CC.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MODE.COM-A72A4197.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MOFCOMP.EXE-5225C32D.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MONOTIFICATIONUX.EXE-23180524.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MOUSOCOREWORKER.EXE-3EF8346A.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MPCMDRUN.EXE-2C9109F9.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MPCMDRUN.EXE-3BE9854D.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MPCMDRUN.EXE-70F76317.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MPDEFENDERCORESERVICE.EXE-D046F013.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MPRECOVERY.EXE-A7361D7E.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MPRECOVERY.EXE-D6E1BC18.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MPSIGSTUB.EXE-5D0450B3.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MPSIGSTUB.EXE-8A052710.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MPSIGSTUB.EXE-AA08153A.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MRT.EXE-46668014.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSCORSVW.EXE-16B291C4.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSCORSVW.EXE-8CE1A322.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSEDGE.EXE-37D25F9A.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSEDGE.EXE-37D25F9B.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSEDGE.EXE-37D25F9C.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSEDGE.EXE-37D25F9E.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSEDGE.EXE-37D25F9F.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSEDGE.EXE-37D25FA4.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSEDGE.EXE-37D25FA5.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSEDGE.EXE-37D25FA6.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSEDGE.EXE-37D25FA7.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSEDGE.EXE-37D25FA8.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSEDGE.EXE-37D25FAA.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSEDGEWEBVIEW2.EXE-0AFEBD53.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSEDGEWEBVIEW2.EXE-0AFEBD57.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSEDGEWEBVIEW2.EXE-0AFEBD5D.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSEDGEWEBVIEW2.EXE-0AFEBD61.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSEDGEWEBVIEW2.EXE-16F7F8F5.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSEDGEWEBVIEW2.EXE-16F7F8F6.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSEDGEWEBVIEW2.EXE-16F7F8F9.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSEDGEWEBVIEW2.EXE-16F7F8FF.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSEDGEWEBVIEW2.EXE-16F7F903.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSEDGEWEBVIEW2.EXE-824F82C6.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSEDGEWEBVIEW2.EXE-824F82CA.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSEDGEWEBVIEW2.EXE-824F82D0.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSEDGEWEBVIEW2.EXE-824F82D1.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSEDGEWEBVIEW2.EXE-824F82D4.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSEDGEWEBVIEW2.EXE-B4FCCD31.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSEDGEWEBVIEW2.EXE-B4FCCD33.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSEDGEWEBVIEW2.EXE-B4FCCD3A.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSMPENG.EXE-400F74AA.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\MSMPENG.EXE-E3294584.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\NGEN.EXE-4A8DA13E.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\NGEN.EXE-734C6620.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\NGENTASK.EXE-0E6CEC17.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\NGENTASK.EXE-849BFD75.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\NISSRV.EXE-EAE574B8.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\NOTEPAD.EXE-0D1583A9.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\NOTMYFAULT64.EXE-45E05C01.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\OLKFULLTRUSTEXECUTOR.EXE-8E1AD057.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\ONEDRIVE.EXE-30FACDCB.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\ONEDRIVE.SYNC.SERVICE.EXE-28613069.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\ONEDRIVE.SYNC.SERVICE.EXE-D4957FF7.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\ONEDRIVESETUP.EXE-2F4C4906.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\ONEDRIVESETUP.EXE-DD050EF3.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\OPENCONSOLE.EXE-2178901A.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\OPENCONSOLE.EXE-DDB337D4.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\PING.EXE-4A8A6853.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\POWERSHELL.EXE-CA1AE517.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\REG.EXE-A93A1343.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\REGSVR32.EXE-03D3FB87.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\REGSVR32.EXE-B31EC963.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\RUNDLL32.EXE-08CDC70B.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\RUNDLL32.EXE-27E52A2D.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\RUNDLL32.EXE-36D847E4.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\RUNDLL32.EXE-6F26928C.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\RUNDLL32.EXE-75313621.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\RUNONCE.EXE-BD8A4C8F.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\RUNTIMEBROKER.EXE-0725D89A.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\RUNTIMEBROKER.EXE-1115C56E.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\RUNTIMEBROKER.EXE-220BDE20.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\RUNTIMEBROKER.EXE-2C5A250C.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\RUNTIMEBROKER.EXE-2F478A01.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\RUNTIMEBROKER.EXE-3FDE9C9A.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\RUNTIMEBROKER.EXE-4551A062.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\RUNTIMEBROKER.EXE-49EA525A.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\RUNTIMEBROKER.EXE-5A650C97.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\RUNTIMEBROKER.EXE-94F69FEA.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\RUNTIMEBROKER.EXE-9C490ABC.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\RUNTIMEBROKER.EXE-A092991F.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\RUNTIMEBROKER.EXE-B2BB82C3.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\RUNTIMEBROKER.EXE-BC51503F.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\RUNTIMEBROKER.EXE-C6B81CFE.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\RUNTIMEBROKER.EXE-CF76774A.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\RUNTIMEBROKER.EXE-D9DB7923.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\RUNTIMEBROKER.EXE-E6FD6E45.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\RUNTIMEBROKER.EXE-ED472F76.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SC.EXE-6C4D4413.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SDBINST.EXE-49E8B208.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SEARCHFILTERHOST.EXE-44162447.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SEARCHHOST.EXE-30A366F9.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SEARCHINDEXER.EXE-1CF42BC6.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SEARCHPROTOCOLHOST.EXE-69C456C3.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SECURITYHEALTHHOST.EXE-5F9A48BB.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SECURITYHEALTHSERVICE.EXE-91B5FB98.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SECURITYHEALTHSETUP.EXE-554F8020.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SECURITYHEALTHSETUP.EXE-E57E89CA.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SECURITYHEALTHSYSTRAY.EXE-E527A4AE.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SETUP.EXE-3D9C1B08.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SETUP.EXE-55F073E7.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SETUP.EXE-F0BDDD02.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SHELLEXPERIENCEHOST.EXE-E14F1772.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SIHCLIENT.EXE-98C47F6C.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SIHOST.EXE-115B507F.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SMARTSCREEN.EXE-EACC1250.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SOFTLANDINGTASK.EXE-75581880.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SOFTLANDINGTASK.EXE-E0AFA251.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SPPSVC.EXE-96070FE0.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\STARTMENUEXPERIENCEHOST.EXE-49335D03.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\STOREDESKTOPEXTENSION.EXE-ADCA2CE7.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\STOREDESKTOPEXTENSION.EXE-B6C08026.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-09F4AEA4.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-117C4441.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-1454AA18.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-18C5C6E4.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-19B557B1.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-2A35E6EF.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-2C8D0E2C.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-2F9E5F3D.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-39447866.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-3CF81F86.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-41084AF7.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-44191FB8.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-4A30148B.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-4B98D760.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-4BD0A607.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-4D0E9C8C.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-529F9AC1.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-58520C26.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-59780EBF.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-62105D0D.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-6493017E.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-677C0885.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-6867B1E5.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-689C772D.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-6A4A44E7.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-73D024B2.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-764FA25C.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-77C41F85.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-7AAD9645.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-84055638.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-84F32335.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-852EC587.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-8E554B3D.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-952637C2.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-9A28EB78.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-A21A7EFE.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-AA89143F.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-B18C213B.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-BC826E0F.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-BE3D0421.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-C25BD44A.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-C2DA4F6F.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-C38EF8DD.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-C4B64CAF.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-C625B657.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-C88A2A3B.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-CEB7C3C2.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-D2385079.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-D5481872.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-D8C907E1.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-D9CC15E0.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-DDF1360E.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-DF14C859.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-E5CD0034.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-EA9BB143.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-EBBF67E6.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-F1E39519.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-F5E1DCD3.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-F952D9A9.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-FB759C0F.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-FC42C687.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SVCHOST.EXE-FC46CD61.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\SYSTEMSETTINGS.EXE-AD6D6913.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\TASKHOSTW.EXE-2E5D4B75.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\TASKKILL.EXE-BE180FC8.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\TIWORKER.EXE-71F44D0E.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\TIWORKER.EXE-90440933.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\TIWORKER.EXE-C741055F.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\TRUSTEDINSTALLER.EXE-766EFF52.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\UIEORCHESTRATOR.EXE-C4670673.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\UIEORCHESTRATORSTUB.EXE-83FF9FFA.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\UPDATEPLATFORM.AMD64FRE.EXE-804667A0.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\USERINIT.EXE-5114915C.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\USEROOBEBROKER.EXE-65584ADF.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\USOCLIENT.EXE-4ADC110B.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\VBOXCERTUTIL.EXE-86B75679.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\VBOXDRVINST.EXE-4DAB4CBE.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\VBOXGUESTINSTALLHELPER.EXE-19DD1CFF.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\VBOXTRAY.EXE-4BE559F8.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\VBOXWINDOWSADDITIONS-AMD64.EX-85C5A15E.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\VBOXWINDOWSADDITIONS.EXE-EE01DD11.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\VDS.EXE-2FCA9D16.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\VDSLDR.EXE-50179B50.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\VERCLSID.EXE-AB0FD091.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\VSSVC.EXE-6C8F0C66.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\WERFAULT.EXE-8EE1E6D7.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\WERMGR.EXE-BE3A79B5.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\WERMGR.EXE-F439C551.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\WEVTUTIL.EXE-1E154F39.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\WIDGETBOARD.EXE-DE5A4505.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\WIDGETS.EXE-2905A03C.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\WIDGETS.EXE-CF54ED94.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\WIDGETSERVICE.EXE-A8599C20.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\WIDGETSERVICE.EXE-C21EFD8F.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\WIMSERV.EXE-FA047876.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\WINDOWS-KB890830-X64-V5.145.E-CC04CDED.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\WINDOWSPACKAGEMANAGERSERVER.E-6EFFCA83.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\WINDOWSTERMINAL.EXE-0DDF887E.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\WINDOWSTERMINAL.EXE-E42B0D64.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\WINSAT.EXE-C345C80B.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\WLRMDR.EXE-A7C36FDD.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\WMIADAP.EXE-BB21CD77.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\WMIAPSRV.EXE-FC8436DD.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\WMIPRVSE.EXE-E8B8DD29.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\WT.EXE-4FA85742.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\WUAUCLTCORE.EXE-84257BB2.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\WUDFHOST.EXE-DEBBE5F1.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\prefetch\WWAHOST.EXE-55C529F0.pf
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\Windows\AppCompat\Programs\Amcache.hve
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\$Extend\$J
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\$Extend\$Max
+D:\salida\Triaje20261027T074929DESKTOP-MM8H7M1\C\$Extend\$RmMetadata\$TxfLog\$T
+D:\salida\Prueba de imagen disco\prueba.E01
+D:\salida\Prueba de imagen disco\prueba.E01.txt

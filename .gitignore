@@ -1,0 +1,8 @@
+*.dmp
+*.raw
+*.mem
+*.pcap
+*.pcapng
+*.ova
+*.zip
+*.7z

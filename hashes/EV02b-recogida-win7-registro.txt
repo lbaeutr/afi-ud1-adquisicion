@@ -1,0 +1,29 @@
+Inicio: Sat 10/31/2026 11:30:18.78 
+Equipo: FORENSE-06  Usuario: Administrador 
+11:30:18.95 netstat -anob 
+11:30:19.10 netstat -ano 
+11:30:19.28 tasklist /v 
+11:30:33.23 tasklist /svc 
+11:30:38.20 wmic process 
+11:30:38.54 query user 
+11:30:39.54 net session 
+11:30:39.73 arp -a 
+11:30:39.90 ipconfig /all 
+11:30:40.75 ipconfig /displaydns 
+11:30:40.93 route print 
+11:30:41.14 net share 
+11:30:41.62 net use 
+11:30:41.87 sc queryex 
+11:30:44.57 wmic service 
+11:30:45.07 at 
+11:30:45.25 wmic startup 
+11:30:45.45 reg query Run/RunOnce 
+11:30:46.35 net user 
+11:30:46.64 wmic useraccount 
+11:30:46.85 net localgroup administrators 
+11:30:47.18 wmic logicaldisk 
+11:30:47.48 wmic diskdrive 
+11:30:47.71 reg query USBSTOR 
+11:30:56.60 systeminfo 
+11:31:01.90 tzutil /g 
+Fin: Sat 10/31/2026 11:31:02.14 

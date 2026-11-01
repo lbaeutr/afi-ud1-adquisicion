@@ -1,0 +1,28 @@
+Inicio: Sat 10/31/2026 11:59:09.89 
+Equipo: FORENSE-06  Usuario: Administrador 
+11:59:10.31 $MFT con RawCopy 
+RawCopy v1.0.0.22
+
+Writing: $MFT
+
+Job took 20.96 seconds
+11:59:32.64 reg save SYSTEM SOFTWARE SAM SECURITY HKCU 
+The operation completed successfully.
+The operation completed successfully.
+The operation completed successfully.
+The operation completed successfully.
+The operation completed successfully.
+12:02:53.70 wevtutil epl 
+12:02:59.90 Prefetch, Tasks, Startup 
+145 File(s) copied
+79 File(s) copied
+1 File(s) copied
+1 File(s) copied
+12:03:54.90 Temp, Recent, Escritorio, hosts 
+28 File(s) copied
+22 File(s) copied
+17 File(s) copied
+4 File(s) copied
+        1 file(s) copied.
+12:04:25.65 Listado de C: (creacion y modificacion) 
+Fin (Listado interrumpidos por LUIS BAENA): Sat 10/31/2026 12:32:53.01  dir D:\salida\ALMADRABA-2026-01_EV04-triaje-win7
