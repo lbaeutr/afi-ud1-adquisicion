@@ -13,7 +13,7 @@
 
 ## Antes de empezar · Marca
 
-Marca `AFI-LuisBaena-20261030` en el Bloc de notas (sin guardar) y en el fichero `marca-luisbaena.txt` del escritorio. Captura: [02_marca-luisbaena.png](capturas/02_marca-luisbaena.png)
+Marca `AFI-LuisBaena-20261030` en el Bloc de notas (guardada) y en el fichero `marca-luisbaena.txt` del escritorio. Captura: [02_marca-luisbaena.png](capturas/02_marca-luisbaena.png)
 
 > La marca se escribió con la fecha del día anterior (20261030) por error; la adquisición se realizó el 31/10/2026. No se corrige en el equipo porque forma parte de la evidencia.
 
