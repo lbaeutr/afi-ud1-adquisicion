@@ -9,6 +9,7 @@
 - [Acta de adquisición](acta-adquisicion.docx) (plantilla; se entrega rellena y firmada en PDF en la Parte 3)
 - [Registro de custodia](registro-custodia.docx) (plantilla; se entrega rellena y firmada en PDF en la Parte 3)
 - [Hashes y registros de las herramientas](hashes/)
+- [Notas de trabajo](notas-de-trabajo.md)
 - [Capturas](capturas/)
 
 ## Antes de empezar · Marca

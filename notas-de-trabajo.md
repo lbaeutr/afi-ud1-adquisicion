@@ -22,7 +22,7 @@ Horas en hora local de España (UTC+1), al minuto, según el reloj del equipo de
 
 **31/10/2026**
 
-- 08:45 · Hago una instantánea de la VM apagada ("Instalacion No hay arranque"). ⚠️ **Error:** el enunciado dice que no se hagan instantáneas, porque los cambios posteriores quedan fuera del `.vmdk`. No la borro ni la restauro.
+- 08:45 · Hago una instantánea de la VM apagada ("Instalacion No hay arranque"). **Error:** el enunciado dice que no se hagan instantáneas, porque los cambios posteriores quedan fuera del `.vmdk`. No la borro ni la restauro.
 
 ## Arranque y marca
 
@@ -30,9 +30,9 @@ Horas en hora local de España (UTC+1), al minuto, según el reloj del equipo de
 - 08:59 · Aparece sola la ventana **"You must restart your computer to apply these changes"**. En el escritorio hay dos ficheros `crea_user`, que no abro. Captura desde VirtualBox: [00_Escritorio.png](capturas/00_Escritorio.png)
 - 09:00 · Cierro la ventana con la X, sin reiniciar: un reinicio borraría la memoria.
 - 09:05–09:07 · Marca: escribo `AFI-LuisBaena-20261030` en el Bloc de notas y la guardo en el escritorio como `marca-luisbaena.txt`. Captura: [02_marca-luisbaena.png](capturas/02_marca-luisbaena.png)
-  - ⚠️ La fecha es la del día anterior, por error.
-  - ⚠️ Cerré el Bloc de notas en lugar de dejarlo abierto sin guardar.
-  - ⚠️ No la copié al pendrive encontrado: ese paso se añadió al enunciado después.
+  -  La fecha es la del día anterior, por error.
+  -  Cerré el Bloc de notas en lugar de dejarlo abierto sin guardar.
+  -  No la copié al pendrive encontrado: ese paso se añadió al enunciado después.
 - 09:11 · Conecto el USB (Dispositivos → USB) → `D:`.
 
 ## 1. Estado inicial
