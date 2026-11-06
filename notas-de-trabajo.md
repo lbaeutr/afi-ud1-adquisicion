@@ -207,6 +207,24 @@ VBoxManage controlvm "FORENSIC_10" nictrace1 off    # 11:42
 
 **Observación:** el pendrive es de uso personal y la imagen incluye otras carpetas además de la marca (`DOCUMENTOS`, `MUSICA`, `VIDEOS`…).
 
+## Parte 3 · Busca tu marca (06/11/2026)
+
+Desde la VM **CAINE 14** (Linux), con la carpeta `caso` compartida **en solo lectura** (`VBoxManage sharedfolder add … --readonly`; en CAINE, `sudo mount -t vboxsf -o ro caso /mnt/caso`). Las búsquedas las hace el script `buscar-marca.sh` (SHA-256 `f34c707a729d87300d11b3a8531c173779e8dda2e99355ef869ee45f958fda1f`), que guarda su registro en una segunda carpeta compartida con escritura: [parte3-busca-marca.log](hashes/parte3-busca-marca.log).
+
+**Por qué un script:** en la VM no se puede pegar texto desde Windows, y así cada comando queda escrito tal cual en el registro.
+
+| Hora | Evidencia | Comando | Resultado |
+|---|---|---|---|
+| 12:11 | EV01 · RAM | `strings -el PC-ADMIN-ram.raw \| grep "AFI-"` | `AFI-LuisBaena-20261030` × 4 · [14](capturas/14_marca_RAM_linux.png) |
+| 12:16 | EV04 · triaje | `strings -el '$MFT' \| grep "marca-"` | `marca-luisbaena.txt`, `marca-luisbaena.lnk` y `…\Desktop\marca-luisbaena.txt` · [15](capturas/15_marca_MFT_linux.png) |
+| 12:17 | EV05 · imagen del disco | `ewfmount` → `mmls` (partición NTFS en el sector 206848) → `mount -t ntfs-3g -o ro,noexec,loop,offset=105906176` | `Users/Administrador/Desktop/marca-luisbaena.txt` → `AFI-LuisBaena-20261030` · [16](capturas/16_marca_imagen_disco.png) |
+| 12:19 | EV06 · imagen del pendrive | `ewfmount` → `mmls` (GPT, partición en el sector 2048) → `mount -t ntfs-3g -o ro,noexec,loop,offset=1048576` | `/marca-luisbaena.txt` (volumen NTFS `LB8GB`) → `AFI-LuisBaena-20261030` · [17](capturas/17_marca_imagen_pendrive.png) |
+
+- SHA-256 del fichero de la marca, **igual en el disco y en el pendrive**: `682107edfa7bc8dcae1e6b57932ec222db478b103203f276f34a228ca36c4886`.
+- Las imágenes se montan **en solo lectura** (`ro`) y sin ejecución (`noexec`); al terminar, el script las desmonta.
+
+**Incidencia:** la primera ejecución del script (11:59–12:05) falló en dos búsquedas: bash interpretaba `$MFT` como variable, y no detectaba la partición GPT del pendrive. Las corregí y volví a lanzarlo; los resultados y las capturas son de la segunda ejecución.
+
 ## Incidencias
 
 - USB no reconocido con los controladores 3.0 y 1.1 → reimportación y USB 2.0.
