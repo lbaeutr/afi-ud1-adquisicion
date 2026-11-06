@@ -18,30 +18,32 @@ Horas en hora local de España (UTC+1), al minuto, según el reloj del equipo de
 - 13:42 · Vacío `D:\salida`: muevo al equipo del analista los restos de pruebas anteriores.
 - 13:45 · Hash del `.ova`: `DAF0EF5255D98276A6912A53611DB5C0CBF2CCCBB49A180DD7FCC0F95E14930C`.
 - 13:50–14:18 · Pruebas: Windows 7 no reconoce el USB con los controladores USB 3.0 ni 1.1 de VirtualBox. Elimino esa máquina.
-- 14:20 · El hash del `.ova` coincide. 14:22 · Lo reimporto. 14:26 · Pongo **USB 2.0**, antes del primer arranque.
+- 14:20 · El hash del `.ova` coincide. 14:22 · Lo reimporto; esta vez el disco queda convertido a VDI (`FORENSIC_10_disk0.vdi`). 14:26 · Pongo **USB 2.0**, antes del primer arranque.
 
 **31/10/2026**
 
-- 08:45 · Hago una instantánea de la VM apagada ("Instalacion No hay arranque"). **Error:** el enunciado dice que no se hagan instantáneas, porque los cambios posteriores quedan fuera del `.vmdk`. No la borro ni la restauro.
+- 08:45 · Hago una instantánea de la VM apagada ("Instalacion No hay arranque"). **Error:** el enunciado dice que no se hagan instantáneas, porque los cambios posteriores quedan en un disco diferencial, fuera del disco base. No la borro ni la restauro (ver Parte 2).
 
-## Arranque y marca
+## Parte 1 · Adquisición en vivo (31/10/2026)
+
+### Arranque y marca
 
 - 08:58 · Arranco la VM. 08:59 · Inicio sesión como `Administrador`.
 - 08:59 · Aparece sola la ventana **"You must restart your computer to apply these changes"**. En el escritorio hay dos ficheros `crea_user`, que no abro. Captura desde VirtualBox: [00_Escritorio.png](capturas/00_Escritorio.png)
 - 09:00 · Cierro la ventana con la X, sin reiniciar: un reinicio borraría la memoria.
-- 09:05–09:07 · Marca: escribo `AFI-LuisBaena-20261030` en el Bloc de notas y la guardo en el escritorio como `marca-luisbaena.txt`. Captura: [02_marca-luisbaena.png](capturas/02_marca-luisbaena.png)
+- 09:05–09:07 · Marca: escribo `AFI-LuisBaena-20261030` en el Bloc de notas y la guardo en el escritorio como `marca-luisbaena.txt` (fecha de modificación del fichero: 09:07:50). Captura: [02_marca-luisbaena.png](capturas/02_marca-luisbaena.png)
   -  La fecha es la del día anterior, por error.
   -  Cerré el Bloc de notas en lugar de dejarlo abierto sin guardar.
-  -  No la copié al pendrive encontrado: ese paso se añadió al enunciado después.
+  -  No la copié al pendrive encontrado: ese paso se añadió al enunciado después. Se copió el 06/11, antes de adquirir el pendrive (ver Parte 2).
 - 09:11 · Conecto el USB (Dispositivos → USB) → `D:`.
 
-## 1. Estado inicial
+### 1. Estado inicial
 
 - 09:17 · En el equipo: `echo %date% %time% & tzutil /g` → `09:17:31,54`, zona `Romance Standard Time` (UTC+1). En el equipo del analista: `09:17:37`.
 - **Desfase:** el equipo va unos 5,5 s atrasado (unos 9 s respecto al ROA).
 - Captura: [01_Estado_Inicial.png](capturas/01_Estado_Inicial.png)
 
-## 2. Memoria RAM (EV01) · DumpIt → WinPmem
+### 2. Memoria RAM (EV01) · DumpIt → WinPmem
 
 - 09:24 · `echo %PROCESSOR_ARCHITECTURE%` → `AMD64`, así que uso la versión x64.
 - 09:34–09:56 · DumpIt y WinPmem fallan: el volumen del USB está marcado como "sucio" y el `cmd` no está elevado.
@@ -55,7 +57,7 @@ Horas en hora local de España (UTC+1), al minuto, según el reloj del equipo de
 
 **Marca en la RAM:** aparece 4 veces (comprobado con `strings64.exe -u … | findstr "AFI-LuisBaena"` sobre la copia). [04_marca_en_RAM.png](capturas/04_marca_en_RAM.png)
 
-## 3. Datos volátiles (EV02 y EV02b)
+### 3. Datos volátiles (EV02 y EV02b)
 
 - 10:35 · `$PSVersionTable.PSVersion` → **PowerShell 2.0**.
 - 10:38 · `respuesta-en-vivo.ps1` no arranca: usa `-notin`, que no existe hasta PowerShell 3.0.
@@ -65,7 +67,7 @@ Horas en hora local de España (UTC+1), al minuto, según el reloj del equipo de
 
 **Por qué:** el script es la herramienta que pide el enunciado, así que lo adapté lo mínimo. Lo que no pudo recoger lo saqué con comandos nativos de Windows, que no instalan nada. El portapapeles no se pudo recoger.
 
-## 4. Tráfico de red (EV03)
+### 4. Tráfico de red (EV03)
 
 En el equipo del analista:
 
@@ -80,7 +82,7 @@ VBoxManage controlvm "FORENSIC_10" nictrace1 off    # 11:42
 
 **Por qué:** se captura desde fuera de la máquina, como un TAP, así que no se instala ni se ejecuta nada en el equipo.
 
-## 5. Triaje (EV04) · KAPE → comandos nativos + RawCopy
+### 5. Triaje (EV04) · KAPE → comandos nativos + RawCopy
 
 - 11:44 · `dir C:\Windows\Microsoft.NET\Framework64` → solo hay .NET 4.0 (la carpeta tiene fecha del arranque de hoy).
 - 11:45 · En el USB solo está el **instalador** `.msi` de Velociraptor, no un recolector offline.
@@ -97,7 +99,7 @@ VBoxManage controlvm "FORENSIC_10" nictrace1 off    # 11:42
 
 **Marca en el triaje:** en `$MFT` aparecen `marca-luisbaena.txt` y `marca-luisbaena.lnk`. [05_marca_en_MFT.png](capturas/05_marca_en_MFT.png)
 
-## 6. Cifrado
+### 6. Cifrado
 
 - 12:35 · `manage-bde -status` → **C:** *Fully Decrypted*, *Protection Off*, sin protectores.
 - 12:39 · `findstr /i "truecrypt veracrypt"` sobre la lista de procesos y servicios recogida → sin resultados.
@@ -105,7 +107,7 @@ VBoxManage controlvm "FORENSIC_10" nictrace1 off    # 11:42
 
 **Qué hice:** nada, porque no hay ningún volumen cifrado. No hace falta sacar la clave ni hacer una copia lógica antes de apagar.
 
-## 7. Apagado
+### 7. Apagado
 
 - 12:45 · Expulso el USB de forma segura dentro del equipo.
 - 12:47 · VirtualBox → Cerrar → **Apagar la máquina**, sin restaurar la instantánea. [09_apagado.png](capturas/09_apagado.png)
@@ -117,7 +119,7 @@ VBoxManage controlvm "FORENSIC_10" nictrace1 off    # 11:42
 - Lo volátil ya estaba adquirido y no hay cifrado.
 - Riesgo asumido: una inconsistencia leve del sistema de ficheros, que no impide hacer la imagen.
 
-## 8. Hashes y copia de seguridad
+### 8. Hashes y copia de seguridad
 
 - 12:50–13:00 · En el equipo del analista calculo el hash de los 368 ficheros de evidencia ([hashes-evidencias.sha256](hashes/hashes-evidencias.sha256)) y hago una copia verificada en `Desktop\caso\evidencias`: **368 correctos, 0 errores**.
 - 12:52 · Windows Defender pone en cuarentena tres `.vbs` del triaje (`HoVgcPUXNBk.vbs`, `jnQGgUrmj.vbs`, `JOEvfoml.vbs`), detectados como `Trojan:VBS/Obfuse.NFE!MTB` y `TrojanDropper:VBS/Ploty.A`. Excluyo las carpetas de evidencias del antivirus y los restauro con `MpCmdRun -Restore`. Los hashes coinciden.
@@ -145,7 +147,6 @@ VBoxManage controlvm "FORENSIC_10" nictrace1 off    # 11:42
 | `Logs\VBox.log` | `ad87d1319759b55b3f1ce24c6de8ddaf360065917c36b0fea8aabdef04c16605` |
 | `Logs\VBoxHardening.log` | `8fd94621391115c57abb9e766915e7c26e7ca352bd1de84b55baf583ae4a17e7` |
 
-
 **Imagen RAW del estado del disco (07:58–07:59):**
 
 `VBoxManage clonemedium disk "…\Snapshots\{f8dd2a95-a32b-49a7-aca6-5643062bacab}.vdi" "…\caso\parte2\PC-ADMIN-disco.raw" --format RAW` → `Clone medium created in format 'RAW'`. Tamaño: 34.359.738.368 bytes (32.768 MB, la capacidad del disco). Después, `VBoxManage closemedium disk` para quitar la RAW del registro de VirtualBox sin borrar el fichero.
@@ -163,6 +164,7 @@ VBoxManage controlvm "FORENSIC_10" nictrace1 off    # 11:42
 - Adquisición: 08:26:32 – 08:28:49 · Verificación: 08:28:49 – 08:31:15.
 - `PC-ADMIN-disco.E01`: 5.005.541.505 bytes · 67.108.864 sectores de 512 bytes (32.768 MB).
 - MD5 `2d61e1880d37a2f05c878b378c53f502` y SHA1 `7acba6a3007d28292ac0574d15cab6daabc0f24d`: **verified** en el hash calculado, el guardado en la imagen y el del informe.
+- SHA-256 del fichero `PC-ADMIN-disco.E01` (para la copia de trabajo y la entrega): `93d9d2be149e6e308685a1d17edfc4e72bc27ed2d516e128642c0862138afe66`
 - Registro: [EV05-disco-ftk.E01.txt](hashes/EV05-disco-ftk.E01.txt) · Captura: [10_ftk_verificacion_disco.png](capturas/10_ftk_verificacion_disco.png)
 
 **Por qué E01 con FTK Imager:** es el formato forense que propone el enunciado. Guarda dentro de la imagen los metadatos del caso y los hashes, va comprimido y FTK lo verifica él solo al terminar.
@@ -171,16 +173,48 @@ VBoxManage controlvm "FORENSIC_10" nictrace1 off    # 11:42
 
 ### Pendrive encontrado
 
-**Marca en el pendrive (HH:MM):** copio `marca-luisbaena.txt` a mi pendrive, que hace de pendrive encontrado:
+**Marca en el pendrive (08:40):** copio `marca-luisbaena.txt` a mi pendrive, que hace de pendrive encontrado:
+
+`Copy-Item "…\caso\evidencias\ALMADRABA-2026-01_EV04-triaje-win7\escritorio-Administrador\marca-luisbaena.txt" E:\` → contenido `AFI-LuisBaena-20261030`. El fichero conserva su fecha de modificación original, 31/10/2026 09:07:50, la de la marca en el equipo.
 
 **Por qué ahora:** el enunciado pide copiar la marca al pendrive antes de empezar, pero ese paso se añadió después de la adquisición en vivo (31/10). Lo hago antes de tratar el pendrive como evidencia, es decir, antes de fotografiarlo y de hacer su imagen, usando la copia del fichero del triaje para no volver a arrancar el equipo. Después lo expulso de forma segura y lo desconecto: desde aquí no se vuelve a conectar sin el bloqueo de escritura activo.
+
+**Descripción del pendrive (10:11), antes de conectarlo:** pendrive USB-A negro, de unos 6,5 cm de largo, **sin marca, modelo, capacidad ni número de serie visibles** en el exterior. Foto sobre plancha milimetrada: [11_pendrive_foto.jpg](capturas/11_pendrive_foto.jpg). Los datos del dispositivo se obtienen ya con el bloqueo activo.
+
+**Bloqueo de escritura con `bloqueo-usb.ps1` (10:15–10:19):**
+
+- **Error de orden:** conecté el pendrive **antes** de activar el bloqueo. Al conectarlo, Windows lo montó (E:) con permiso de escritura durante unos segundos. No escribí nada en él, pero el sistema pudo hacerlo.
+- 10:15:23 · Activo la política global (`WriteProtect=1`) y, a las 10:15:34, marco el disco como solo lectura: `Disco 1 (Sony Storage Media, serie 2A080922H6837) -> SOLO LECTURA`.
+- 10:16–10:17 · Pulso **Comprobar** → `no deja escribir -> PROTEGIDO`.
+- 10:19:25 · Para corregirlo, lo desconecto y lo vuelvo a conectar con la política ya activa (hora de llegada del dispositivo según Windows, `DEVPKEY_Device_LastArrivalDate`). 10:19:57 · **Comprobar** → PROTEGIDO. La imagen se hace desde esta conexión. Captura: [12_bloqueo_protegido.png](capturas/12_bloqueo_protegido.png)
+- Datos del pendrive (según el sistema): **Sony Storage Media**, **7,5 GB**, n.º de serie **2A080922H6837**.
+- SHA-256 de `bloqueo-usb.ps1` (ejecutado desde `Desktop\bloqueo-usb.ps1`): `150adbc3bee0ee8f8662bee8758e4791fb090c20a48807ac24ae9bea531eef5a` (coincide con el de la preparación). Registro: [bloqueo-usb.log](hashes/bloqueo-usb.log); las dos primeras líneas (03/11, 08:55) son una prueba del script anterior al caso.
+
+**Por qué el bloqueo:** el pendrive es una evidencia. Sin bloqueo, Windows puede escribir en él al conectarlo (metadatos, indexación, papelera…). El script impide escribir en cualquier USB que se conecte (política `WriteProtect`), y **Comprobar** confirma que no se puede escribir antes de hacer la imagen.
+
+**Imagen E01 con FTK Imager 8.3.0.27 (10:33–10:41):**
+
+*File → Create Disk Image → Physical Drive* → `Sony Storage Media USB Device` (7.648 MB) → **E01**. Case Number `ALMADRABA-2026-01`, Evidence Number `EV06`, Examiner `Luis Baena`, fragment size 0, compression 6, sin cifrado y **Verify images after they are created** marcado. Destino: `caso\parte2\E01-pendrive`.
+
+- Adquisición: 10:33:30 – 10:41:00 · Verificación: 10:41:00 – 10:41:21.
+- Origen según FTK: modelo `Sony Storage Media USB Device`, n.º de serie `2A080922H6837`, interfaz USB, extraíble, 15.663.104 sectores de 512 bytes (7.648 MB).
+- `pendrive-encontrado.E01`: 4.318.806.712 bytes.
+- MD5 `deffac3913d254624312e9b105bae016` y SHA1 `89fa203a0d59b66ec169ac76b8d287a993c66afd`: **verified** en los tres hashes; *Match*; sin sectores defectuosos.
+- SHA-256 del fichero `pendrive-encontrado.E01`: `0a10b259264e58cd3a26291af10a7e42dec528219a3ba5ab95ffe308fcbcb393`
+- Registro: [EV06-pendrive-ftk.E01.txt](hashes/EV06-pendrive-ftk.E01.txt) · Captura: [13_ftk_verificacion_pendrive.png](capturas/13_ftk_verificacion_pendrive.png)
+
+**Cierre (10:46:50):** desactivo la política de bloqueo (`WriteProtect=0`), con la imagen ya terminada y verificada (10:41:21).
+
+**Observación:** el pendrive es de uso personal y la imagen incluye otras carpetas además de la marca (`DOCUMENTOS`, `MUSICA`, `VIDEOS`…).
 
 ## Incidencias
 
 - USB no reconocido con los controladores 3.0 y 1.1 → reimportación y USB 2.0.
 - Instantánea hecha antes de conocer el aviso del enunciado.
-- Marca: fecha equivocada, Bloc de notas cerrado y sin copia al pendrive.
+- Marca: fecha equivocada, Bloc de notas cerrado y copia al pendrive hecha el 06/11 en lugar de antes de empezar.
 - Volumen del USB "sucio" → `chkdsk` en el equipo del analista. No anoté el resultado de la segunda verificación de herramientas.
 - DumpIt, `respuesta-en-vivo.ps1` y KAPE no son compatibles con este Windows 7 → WinPmem, copia adaptada y comandos nativos con RawCopy.
 - Escrituras en el equipo además de la marca: drivers temporales de WinPmem y DumpIt, el informe de error de KAPE y la conexión del USB.
 - Defender puso en cuarentena las evidencias `.vbs` → se restauraron con su hash intacto.
+- Parte 2: el disco era `.vdi` con instantánea → imagen del estado completo con `VBoxManage clonemedium` y E01 con FTK Imager; hashes del original iguales antes y después.
+- Parte 2: conecté el pendrive antes de activar el bloqueo de escritura → lo reconecté con el bloqueo activo y comprobado antes de hacer la imagen.
