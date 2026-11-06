@@ -1,0 +1,127 @@
+
+==================================================================
+ PARTE 3 · BUSCA TU MARCA  ·  caso ALMADRABA-2026-01  ·  Luis Baena
+ 06/11/2026 12:18:51 (hora de Espana)
+==================================================================
+$ uname -a
+Linux caine 6.8.0-52-generic #53-Ubuntu SMP PREEMPT_DYNAMIC Sat Jan 11 00:06:25 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+$ strings --version | head -1
+GNU strings (GNU Binutils for Ubuntu) 2.42
+$ ewfmount -V 2>&1 | head -1
+ewfmount 20140812
+$ mmls -V 2>&1 | head -1
+The Sleuth Kit ver 4.12.1
+Carpeta del caso: /mnt/caso (solo lectura)
+Resultados: /mnt/resultados/parte3-busca-marca.log
+
+Tras cada busqueda la pantalla se queda quieta y sin texto extra:
+haz la captura (Ctrl derecho + E) y pulsa Enter para pasar a la siguiente.
+
+==================================================================
+ 1/4 · MARCA EN LA RAM (EV01 · PC-ADMIN-ram.raw)
+ 06/11/2026 12:18:52 (hora de Espana)
+==================================================================
+$ ls -l '/mnt/caso/evidencias/PC-ADMIN-ram.raw'
+-rwxrwxrwx 1 root root 1073676288 ott 31 09:17 /mnt/caso/evidencias/PC-ADMIN-ram.raw
+$ strings -el '/mnt/caso/evidencias/PC-ADMIN-ram.raw' | grep 'AFI-'
+AFI-LuisBaena-20261030
+AFI-LuisBaena-20261030
+AFI-LuisBaena-20261030
+AFI-LuisBaena-20261030
+
+==================================================================
+ 2/4 · MARCA EN EL TRIAJE (EV04 · $MFT)
+ 06/11/2026 12:19:10 (hora de Espana)
+==================================================================
+$ ls -l '/mnt/caso/evidencias/ALMADRABA-2026-01_EV04-triaje-win7/mft/$MFT'
+-rwxrwxrwx 1 root root 69206016 ott 31 10:59 /mnt/caso/evidencias/ALMADRABA-2026-01_EV04-triaje-win7/mft/$MFT
+$ strings -el '/mnt/caso/evidencias/ALMADRABA-2026-01_EV04-triaje-win7/mft/$MFT' | grep 'marca-'
+marca-luisbaena.txt@
+marca-luisbaena.lnk
+marca-luisbaena.txt
+*..\..\..\..\..\Desktop\marca-luisbaena.txt
+
+==================================================================
+ 3/4 · MARCA EN LA IMAGEN DEL DISCO (EV05 · PC-ADMIN-disco.E01)
+ 06/11/2026 12:19:17 (hora de Espana)
+==================================================================
+$ ewfmount '/mnt/caso/parte2/E01-disco/PC-ADMIN-disco.E01' /mnt/ewf_disco
+ewfmount 20140812
+
+$ mmls /mnt/ewf_disco/ewf1
+DOS Partition Table
+Offset Sector: 0
+Units are in 512-byte sectors
+
+      Slot      Start        End          Length       Description
+000:  Meta      0000000000   0000000000   0000000001   Primary Table (#0)
+001:  -------   0000000000   0000002047   0000002048   Unallocated
+002:  000:000   0000002048   0000206847   0000204800   NTFS / exFAT (0x07)
+003:  000:001   0000206848   0067106815   0066899968   NTFS / exFAT (0x07)
+004:  -------   0067106816   0067108863   0000002048   Unallocated
+Inicio de la particion de datos: sector 206848 (offset 105906176 bytes)
+$ fsstat -o 206848 /mnt/ewf_disco/ewf1 | head -12
+FILE SYSTEM INFORMATION
+--------------------------------------------
+File System Type: NTFS
+Volume Serial Number: 84D64E64D64E5698
+OEM Name: NTFS    
+Version: Windows XP
+
+METADATA INFORMATION
+--------------------------------------------
+First Cluster of MFT: 786432
+First Cluster of MFT Mirror: 2
+Size of MFT Entries: 1024 bytes
+$ mount -t ntfs-3g -o ro,noexec,loop,offset=105906176 /mnt/ewf_disco/ewf1 /mnt/fs_disco
+$ mount | grep ' /mnt/fs_disco '
+/mnt/ewf_disco/ewf1 on /mnt/fs_disco type fuseblk (ro,noexec,relatime,user_id=0,group_id=0,allow_other,blksize=4096)
+$ find /mnt/fs_disco/Users -maxdepth 3 -iname 'marca-*' -exec ls -l {} \;
+-rwxrwxrwx 2 root root 22 ott 31 08:07 /mnt/fs_disco/Users/Administrador/Desktop/marca-luisbaena.txt
+$ cat '/mnt/fs_disco/Users/Administrador/Desktop/marca-luisbaena.txt'; echo
+AFI-LuisBaena-20261030
+$ sha256sum '/mnt/fs_disco/Users/Administrador/Desktop/marca-luisbaena.txt'
+682107edfa7bc8dcae1e6b57932ec222db478b103203f276f34a228ca36c4886  /mnt/fs_disco/Users/Administrador/Desktop/marca-luisbaena.txt
+
+==================================================================
+ 4/4 · MARCA EN LA IMAGEN DEL PENDRIVE (EV06 · pendrive-encontrado.E01)
+ 06/11/2026 12:19:42 (hora de Espana)
+==================================================================
+$ ewfmount '/mnt/caso/parte2/E01-pendrive/pendrive-encontrado.E01' /mnt/ewf_pendrive
+ewfmount 20140812
+
+$ mmls /mnt/ewf_pendrive/ewf1
+GUID Partition Table (EFI)
+Offset Sector: 0
+Units are in 512-byte sectors
+
+      Slot      Start        End          Length       Description
+000:  Meta      0000000000   0000000000   0000000001   Safety Table
+001:  -------   0000000000   0000002047   0000002048   Unallocated
+002:  Meta      0000000001   0000000001   0000000001   GPT Header
+003:  Meta      0000000002   0000000033   0000000032   Partition Table
+004:  000       0000002048   0015663023   0015660976   Main Data Partition
+005:  -------   0015663024   0015663103   0000000080   Unallocated
+Inicio de la particion de datos: sector 2048 (offset 1048576 bytes)
+$ fsstat -o 2048 /mnt/ewf_pendrive/ewf1 | head -12
+FILE SYSTEM INFORMATION
+--------------------------------------------
+File System Type: NTFS
+Volume Serial Number: 42E0FA88E0FA8189
+OEM Name: NTFS    
+Volume Name: LB8GB
+Version: Windows XP
+
+METADATA INFORMATION
+--------------------------------------------
+First Cluster of MFT: 786432
+First Cluster of MFT Mirror: 2
+$ mount -t ntfs-3g -o ro,noexec,loop,offset=1048576 /mnt/ewf_pendrive/ewf1 /mnt/fs_pendrive
+$ mount | grep ' /mnt/fs_pendrive '
+/mnt/ewf_pendrive/ewf1 on /mnt/fs_pendrive type fuseblk (ro,noexec,relatime,user_id=0,group_id=0,allow_other,blksize=4096)
+$ ls -l /mnt/fs_pendrive/marca-* 2>/dev/null || find /mnt/fs_pendrive -maxdepth 2 -iname 'marca-*'
+-rwxrwxrwx 1 root root 22 ott 31 08:07 /mnt/fs_pendrive/marca-luisbaena.txt
+$ cat '/mnt/fs_pendrive/marca-luisbaena.txt'; echo
+AFI-LuisBaena-20261030
+$ sha256sum '/mnt/fs_pendrive/marca-luisbaena.txt'
+682107edfa7bc8dcae1e6b57932ec222db478b103203f276f34a228ca36c4886  /mnt/fs_pendrive/marca-luisbaena.txt
