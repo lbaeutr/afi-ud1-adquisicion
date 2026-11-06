@@ -122,6 +122,59 @@ VBoxManage controlvm "FORENSIC_10" nictrace1 off    # 11:42
 - 12:50–13:00 · En el equipo del analista calculo el hash de los 368 ficheros de evidencia ([hashes-evidencias.sha256](hashes/hashes-evidencias.sha256)) y hago una copia verificada en `Desktop\caso\evidencias`: **368 correctos, 0 errores**.
 - 12:52 · Windows Defender pone en cuarentena tres `.vbs` del triaje (`HoVgcPUXNBk.vbs`, `jnQGgUrmj.vbs`, `JOEvfoml.vbs`), detectados como `Trojan:VBS/Obfuse.NFE!MTB` y `TrojanDropper:VBS/Ploty.A`. Excluyo las carpetas de evidencias del antivirus y los restauro con `MpCmdRun -Restore`. Los hashes coinciden.
 
+## Parte 2 · Adquisición post-mortem (06/11/2026)
+
+### Disco de la máquina
+
+**Documentación de la máquina (07:48):**
+
+- Estado: *powered off* desde el 31/10/2026 a las 12:47:56 (11:47:56 UTC), que coincide con el corte de corriente.
+- Carpeta: `C:\Users\lbaen\VirtualBox VMs\FORENSIC_10`.
+- Disco base: `FORENSIC_10_disk0.vdi` (VDI, 32.768 MB). Al reimportar se convirtió a VDI, no se quedó en `.vmdk`.
+- Instantánea: "Instalacion No hay arranque". La máquina usa el disco diferencial `Snapshots\{f8dd2a95-a32b-49a7-aca6-5643062bacab}.vdi` (1,16 GB), hijo del disco base. Ahí están todos los cambios de la sesión en vivo, incluida la marca.
+- Comandos: `VBoxManage showvminfo "FORENSIC_10"`, `VBoxManage snapshot "FORENSIC_10" list --details`, `VBoxManage list hdds`.
+
+**Hashes de la carpeta antes de la adquisición (07:50–07:51):**
+
+| Fichero | SHA-256 |
+|---|---|
+| `FORENSIC_10_disk0.vdi` | `7430c40df5d0d68f90d8c5c1567864dcf9f4b9365b2f1f75b7aa4a4b50fabf3c` |
+| `Snapshots\{f8dd2a95-…}.vdi` | `c3652a3fe1d50994fabd1d7782c108f4905097f7262ce110fafc52b9d97f5887` |
+| `FORENSIC_10.vbox` | `f649f8d97ed9b400d6d32e637a0be4a8cf31094e55bc37fddcd0e861b2227c17` |
+| `FORENSIC_10.vbox-prev` | `704b1888a20a5d57e32d39171d8b5066e850bea35e4fa1b8d00794fdb3789779` |
+| `Logs\VBox.log` | `ad87d1319759b55b3f1ce24c6de8ddaf360065917c36b0fea8aabdef04c16605` |
+| `Logs\VBoxHardening.log` | `8fd94621391115c57abb9e766915e7c26e7ca352bd1de84b55baf583ae4a17e7` |
+
+
+**Imagen RAW del estado del disco (07:58–07:59):**
+
+`VBoxManage clonemedium disk "…\Snapshots\{f8dd2a95-a32b-49a7-aca6-5643062bacab}.vdi" "…\caso\parte2\PC-ADMIN-disco.raw" --format RAW` → `Clone medium created in format 'RAW'`. Tamaño: 34.359.738.368 bytes (32.768 MB, la capacidad del disco). Después, `VBoxManage closemedium disk` para quitar la RAW del registro de VirtualBox sin borrar el fichero.
+
+**Por qué:** FTK Imager no admite discos `.vdi` ni cadenas con disco diferencial. El estado del disco al apagar está repartido entre `FORENSIC_10_disk0.vdi` y el diferencial de la instantánea. `clonemedium` sobre el diferencial recorre la cadena y saca el disco completo, leyendo los originales sin modificarlos (se comprueba con su hash antes y después). `qemu-img` no sirve porque no entiende los diferenciales de VirtualBox.
+
+**Hashes de la carpeta después de la imagen (08:01):** los 6 ficheros, incluidos `FORENSIC_10_disk0.vdi` y el diferencial, tienen **el mismo hash que antes** (`Compare-Object` → IGUAL en todos). El original no se ha modificado. Ficheros: `hashes-vm-antes.csv` y `hashes-vm-despues.csv`.
+
+**SHA-256 de la RAW (`PC-ADMIN-disco.raw`, 08:01–08:03):** `8aee6f5436e4da5201f511dc7fbcf81c1ab241a5e188637ea5e62cbabc410327`
+
+**Imagen E01 con FTK Imager 8.3.0.27 (08:26–08:31):**
+
+*File → Create Disk Image → Image File* → `PC-ADMIN-disco.raw` → **E01**. Case Number `ALMADRABA-2026-01`, Evidence Number `EV05`, Examiner `Luis Baena`, fragment size 0 (un solo fichero), compression 6, sin cifrado y **Verify images after they are created** marcado. Destino: carpeta vacía `caso\parte2\E01-disco`. La primera vez lo apunté a la misma carpeta que la RAW, FTK avisó de que podía sobrescribir un fichero y cambié de carpeta.
+
+- Adquisición: 08:26:32 – 08:28:49 · Verificación: 08:28:49 – 08:31:15.
+- `PC-ADMIN-disco.E01`: 5.005.541.505 bytes · 67.108.864 sectores de 512 bytes (32.768 MB).
+- MD5 `2d61e1880d37a2f05c878b378c53f502` y SHA1 `7acba6a3007d28292ac0574d15cab6daabc0f24d`: **verified** en el hash calculado, el guardado en la imagen y el del informe.
+- Registro: [EV05-disco-ftk.E01.txt](hashes/EV05-disco-ftk.E01.txt) · Captura: [10_ftk_verificacion_disco.png](capturas/10_ftk_verificacion_disco.png)
+
+**Por qué E01 con FTK Imager:** es el formato forense que propone el enunciado. Guarda dentro de la imagen los metadatos del caso y los hashes, va comprimido y FTK lo verifica él solo al terminar.
+
+**Configuración y registros (08:33):** copiados a `caso\parte2\config-vm`: `FORENSIC_10.vbox`, `FORENSIC_10.vbox-prev`, `Logs\VBox.log` y `Logs\VBoxHardening.log`. Los 4 tienen el mismo hash que en los originales.
+
+### Pendrive encontrado
+
+**Marca en el pendrive (HH:MM):** copio `marca-luisbaena.txt` a mi pendrive, que hace de pendrive encontrado:
+
+**Por qué ahora:** el enunciado pide copiar la marca al pendrive antes de empezar, pero ese paso se añadió después de la adquisición en vivo (31/10). Lo hago antes de tratar el pendrive como evidencia, es decir, antes de fotografiarlo y de hacer su imagen, usando la copia del fichero del triaje para no volver a arrancar el equipo. Después lo expulso de forma segura y lo desconecto: desde aquí no se vuelve a conectar sin el bloqueo de escritura activo.
+
 ## Incidencias
 
 - USB no reconocido con los controladores 3.0 y 1.1 → reimportación y USB 2.0.

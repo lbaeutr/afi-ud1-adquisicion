@@ -1,0 +1,55 @@
+﻿Created By Exterro® FTK® Imager 8.3.0.27 
+
+Case Information: 
+Case Number: ALMADRABA-2026-01
+Evidence Number: EV05
+Unique description: Disco de PC-ADMIN (FORENSIC_10) en su estado al apagar: base + diferencial
+Examiner: Luis Baena
+Notes: Origen: PC-ADMIN-disco.raw generado con VBoxManage clonemedium
+Encrypted Password : N/A
+
+Computer Name: LBAEUTR
+Windows Edition: Windows 11 Pro
+Windows Version: Microsoft Windows 6.3.26300.9818
+OS build: 6.3.26300
+Processor: 12th Gen Intel(R) Core(TM) i7-12700H
+Installed RAM: 16 GB
+
+--------------------------------------------------------------
+
+Information for C:\Users\lbaen\Desktop\caso\parte2\E01-disco\PC-ADMIN-disco:
+
+Physical Evidentiary Item (Source) Information:
+  [Device Info]
+    Source Type: Physical
+  [Drive Geometry]
+    Bytes per Sector: 512
+    Sector Count: 67.108.864
+  [Image]
+    Image Type: Raw (dd)
+    Source data size: 32768 MB
+    Sector count:    67108864
+  [Computed Hashes]
+    MD5 Hash:    2d61e1880d37a2f05c878b378c53f502
+    SHA1 Hash:   7acba6a3007d28292ac0574d15cab6daabc0f24d
+
+Verification Definitions:
+  Computed hash: The hash calculated of the source media during the creation or verify process
+  Stored verification hash: The hash calculated during image acquisition and stored inside the image
+  Report hash: The hash calculated during image acquisition and stored in the image summary report
+
+Image Information:
+  Acquisition started:   Fri Nov  6 08:26:32 2026 (2026-11-06T07:26:32Z)
+  Acquisition finished:  Fri Nov  6 08:28:49 2026 (2026-11-06T07:28:49Z)
+  Segment list:
+    C:\Users\lbaen\Desktop\caso\parte2\E01-disco\PC-ADMIN-disco.E01
+
+Image Verification Results:
+  Verification started:  Fri Nov  6 08:28:49 2026 (2026-11-06T07:28:49Z)
+  Verification finished: Fri Nov  6 08:31:15 2026 (2026-11-06T07:31:15Z)
+  MD5 - Computed hash:             2d61e1880d37a2f05c878b378c53f502 : verified
+  MD5 - Stored verification hash:  2d61e1880d37a2f05c878b378c53f502 : verified
+  MD5 - Report hash:               2d61e1880d37a2f05c878b378c53f502 : verified
+  SHA1 - Computed hash:            7acba6a3007d28292ac0574d15cab6daabc0f24d : verified
+  SHA1 - Stored verification hash: 7acba6a3007d28292ac0574d15cab6daabc0f24d : verified
+  SHA1 - Report hash:              7acba6a3007d28292ac0574d15cab6daabc0f24d : verified
