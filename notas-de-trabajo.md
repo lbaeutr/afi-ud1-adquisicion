@@ -225,6 +225,33 @@ Desde la VM **CAINE 14** (Linux), con la carpeta `caso` compartida **en solo lec
 
 **Incidencia:** la primera ejecución del script (11:59–12:05) falló en dos búsquedas: bash interpretaba `$MFT` como variable, y no detectaba la partición GPT del pendrive. Las corregí y volví a lanzarlo; los resultados y las capturas son de la segunda ejecución.
 
+## Parte 4 · Cadena de custodia (06/11 y 07/11/2026)
+
+**Copias de trabajo (06/11, 12:33):** copio las evidencias a `Desktop\caso\trabajo` y compruebo que cada copia tiene el mismo SHA-256 que su maestra. Las maestras no se vuelven a tocar.
+
+**Carpeta de entrega (06/11, 12:36–12:39):** `Desktop\caso\entrega` (9,9 GB) con la RAM (`PC-ADMIN-ram.raw`), `red.pcap`, las carpetas EV02, EV02b y EV04, `E01-disco`, `E01-pendrive` y `config-vm`.
+
+Desde CAINE, con la carpeta compartida en solo lectura, el script `hashes-entrega.sh` (SHA-256 `fb478642c1addbb2f554c07d0a86c82811a9c81e7a950cff00cca4064ba6a1ec`) hace:
+
+```bash
+cd /mnt/caso/entrega
+find . -type f ! -name hashes.sha256 -exec sha256sum {} + | sort -k2 > hashes.sha256
+sha256sum -c hashes.sha256
+```
+
+- `hashes.sha256`: **376 ficheros**; la comprobación inmediata da **376 OK, 0 errores**. Captura: [18_hashes_entrega.png](capturas/18_hashes_entrega.png)
+- SHA-256 del propio `hashes.sha256`: `c5e23adceb441da87428b02ad4c6cc99c116bc6955e37454d5dd5ab5d644ff98`. Copia en [hashes/hashes.sha256](hashes/hashes.sha256).
+
+**Entrega a Raúl Toledo Procopio (07/11, 13:00):** le paso la carpeta `entrega` y le digo aparte el hash de `hashes.sha256`. Desde la misma carpeta:
+
+- `sha256sum hashes.sha256` → coincide con `c5e23adc…ff98`, así que el listado no se ha cambiado.
+- `sha256sum -c hashes.sha256` → **376 OK, 0 errores**.
+- Firmamos la entrega en el [registro de custodia](registro-custodia.pdf).
+
+**Devolución (07/11, 13:25):** Raúl me devuelve la carpeta. Vuelvo a ejecutar `sha256sum -c hashes.sha256` → **376 OK**. Firmamos la devolución.
+
+**Por qué:** la entrega con `hashes.sha256` permite que quien recibe compruebe por sí mismo que no ha cambiado nada, y pasar el hash del listado por otro canal impide que alguien cambie una evidencia y el listado a la vez. Cada traspaso queda firmado en el registro, sin huecos desde la adquisición hasta la devolución.
+
 ## Incidencias
 
 - USB no reconocido con los controladores 3.0 y 1.1 → reimportación y USB 2.0.
