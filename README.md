@@ -119,5 +119,3 @@ El fichero de la marca tiene el mismo SHA-256 en el disco y en el pendrive: `682
 - Escrituras en el equipo además de la marca: drivers temporales de WinPmem y DumpIt, el informe de error de KAPE y la conexión del USB.
 - La instantánea de VirtualBox se hizo antes del primer arranque, sin conocer el aviso del enunciado. Por eso el disco se unió en RAW antes de hacer la imagen.
 - El pendrive se conectó sin bloqueo para copiar la marca. Antes de la imagen se activó el bloqueo, se comprobó y se volvió a conectar.
-
-> Las evidencias no se suben al repositorio por su tamaño; aquí solo se publican sus hashes y los registros de las herramientas.

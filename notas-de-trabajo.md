@@ -47,7 +47,7 @@ Horas en hora local de España (UTC+1), al minuto, según el reloj del equipo de
 
 - 09:24 · `echo %PROCESSOR_ARCHITECTURE%` → `AMD64`, así que uso la versión x64.
 - 09:34–09:56 · DumpIt y WinPmem fallan: el volumen del USB está marcado como "sucio" y el `cmd` no está elevado.
-- 10:00 · En el equipo del analista: `chkdsk D: /f`, sin errores.
+- 10:00 · En mi equipo: `chkdsk D: /f`, sin errores.
 - 10:05 · Reconecto el USB y abro un `cmd` **como administrador**.
 - 10:08 · `"D:\WINDOWS\memoria\Magnet DumpIt\x64\DumpIt.exe" /OUTPUT D:\salida\PC-ADMIN-ram.dmp` → **`Load driver failed with 0xC0000428`**. [06_dumpit_error.png](capturas/06_dumpit_error.png)
 - 10:14–10:16 · `D:\WINDOWS\memoria\WinPmem\winpmem_mini_x64_rc2.exe D:\salida\PC-ADMIN-ram.raw` → 1.073.676.288 bytes. [07_winpmem_fin.png](capturas/07_winpmem_fin.png)
@@ -149,7 +149,7 @@ VBoxManage controlvm "FORENSIC_10" nictrace1 off    # 11:42
 
 **Imagen RAW del estado del disco (07:58–07:59):**
 
-`VBoxManage clonemedium disk "…\Snapshots\{f8dd2a95-a32b-49a7-aca6-5643062bacab}.vdi" "…\caso\parte2\PC-ADMIN-disco.raw" --format RAW` → `Clone medium created in format 'RAW'`. Tamaño: 34.359.738.368 bytes (32.768 MB, la capacidad del disco). Después, `VBoxManage closemedium disk` para quitar la RAW del registro de VirtualBox sin borrar el fichero.
+`VBoxManage clonemedium disk "…\Snapshots\{f8dd2a95-a32b-49a7-aca6-5643062bacab}.vdi" "…\caso\parte2\PC-ADMIN-disco.raw" --format RAW` → `Clone medium created in format 'RAW'`. Tamaño: 32.768 MB, la capacidad del disco. Después, `VBoxManage closemedium disk` para quitar la RAW del registro de VirtualBox sin borrar el fichero.
 
 **Por qué:** FTK Imager no admite discos `.vdi` ni cadenas con disco diferencial. El estado del disco al apagar está repartido entre `FORENSIC_10_disk0.vdi` y el diferencial de la instantánea. `clonemedium` sobre el diferencial recorre la cadena y saca el disco completo, leyendo los originales sin modificarlos (se comprueba con su hash antes y después). `qemu-img` no sirve porque no entiende los diferenciales de VirtualBox.
 
@@ -175,7 +175,7 @@ VBoxManage controlvm "FORENSIC_10" nictrace1 off    # 11:42
 
 **Marca en el pendrive (08:40):** copio `marca-luisbaena.txt` a mi pendrive, que hace de pendrive encontrado:
 
-`Copy-Item "…\caso\evidencias\ALMADRABA-2026-01_EV04-triaje-win7\escritorio-Administrador\marca-luisbaena.txt" E:\` → contenido `AFI-LuisBaena-20261030`. El fichero conserva su fecha de modificación original, 31/10/2026 09:07:50, la de la marca en el equipo.
+Contenido `AFI-LuisBaena-20261030`. El fichero conserva su fecha de modificación original, 31/10/2026 09:07:50, la de la marca en el equipo.
 
 **Por qué ahora:** el enunciado pide copiar la marca al pendrive antes de empezar, pero ese paso se añadió después de la adquisición en vivo (31/10). Lo hago antes de tratar el pendrive como evidencia, es decir, antes de fotografiarlo y de hacer su imagen, usando la copia del fichero del triaje para no volver a arrancar el equipo. Después lo expulso de forma segura y lo desconecto: desde aquí no se vuelve a conectar sin el bloqueo de escritura activo.
 
@@ -186,7 +186,7 @@ VBoxManage controlvm "FORENSIC_10" nictrace1 off    # 11:42
 - **Error de orden:** conecté el pendrive **antes** de activar el bloqueo. Al conectarlo, Windows lo montó (E:) con permiso de escritura durante unos segundos. No escribí nada en él, pero el sistema pudo hacerlo.
 - 10:15:23 · Activo la política global (`WriteProtect=1`) y, a las 10:15:34, marco el disco como solo lectura: `Disco 1 (Sony Storage Media, serie 2A080922H6837) -> SOLO LECTURA`.
 - 10:16–10:17 · Pulso **Comprobar** → `no deja escribir -> PROTEGIDO`.
-- 10:19:25 · Para corregirlo, lo desconecto y lo vuelvo a conectar con la política ya activa (hora de llegada del dispositivo según Windows, `DEVPKEY_Device_LastArrivalDate`). 10:19:57 · **Comprobar** → PROTEGIDO. La imagen se hace desde esta conexión. Captura: [12_bloqueo_protegido.png](capturas/12_bloqueo_protegido.png)
+- 10:19:25 · Para corregirlo, lo desconecto y lo vuelvo a conectar con la política ya activa hora de llegada del dispositivo según Windows 10:19:57 · **Comprobar** → PROTEGIDO. La imagen se hace desde esta conexión. Captura: [12_bloqueo_protegido.png](capturas/12_bloqueo_protegido.png)
 - Datos del pendrive (según el sistema): **Sony Storage Media**, **7,5 GB**, n.º de serie **2A080922H6837**.
 - SHA-256 de `bloqueo-usb.ps1` (ejecutado desde `Desktop\bloqueo-usb.ps1`): `150adbc3bee0ee8f8662bee8758e4791fb090c20a48807ac24ae9bea531eef5a` (coincide con el de la preparación). Registro: [bloqueo-usb.log](hashes/bloqueo-usb.log); las dos primeras líneas (03/11, 08:55) son una prueba del script anterior al caso.
 
@@ -232,12 +232,6 @@ Desde la VM **CAINE 14** (Linux), con la carpeta `caso` compartida **en solo lec
 **Carpeta de entrega (06/11, 12:36–12:39):** `Desktop\caso\entrega` (9,9 GB) con la RAM (`PC-ADMIN-ram.raw`), `red.pcap`, las carpetas EV02, EV02b y EV04, `E01-disco`, `E01-pendrive` y `config-vm`.
 
 Desde CAINE, con la carpeta compartida en solo lectura, el script `hashes-entrega.sh` (SHA-256 `fb478642c1addbb2f554c07d0a86c82811a9c81e7a950cff00cca4064ba6a1ec`) hace:
-
-```bash
-cd /mnt/caso/entrega
-find . -type f ! -name hashes.sha256 -exec sha256sum {} + | sort -k2 > hashes.sha256
-sha256sum -c hashes.sha256
-```
 
 - `hashes.sha256`: **376 ficheros**; la comprobación inmediata da **376 OK, 0 errores**. Captura: [18_hashes_entrega.png](capturas/18_hashes_entrega.png)
 - SHA-256 del propio `hashes.sha256`: `c5e23adceb441da87428b02ad4c6cc99c116bc6955e37454d5dd5ab5d644ff98`. Copia en [hashes/hashes.sha256](hashes/hashes.sha256).
